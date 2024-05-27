@@ -1,0 +1,46 @@
+{
+  "flex-layout.row#department-slider-double": {
+    "title": "Banner Duplo",
+    "children": [
+      "list-context.image-list#department-slider-double"
+    ],
+    "props": {
+      "blockClass": "department-slider-double",
+      "fullWidth": true
+    }
+  },
+  "list-context.image-list#department-slider-double": {
+    "title": "Banner",
+    "children": [
+      "slider-layout#department-slider-double-images"
+    ],
+    "props": {
+      "images": [
+        {
+          "image": "assets/banners/mock/580x230.png",
+          "mobileImage": "assets/banners/mock/580x230.png",
+          "description": "something something"
+        },
+        {
+          "image": "assets/banners/mock/580x230.png",
+          "mobileImage": "assets/banners/mock/580x230.png",
+          "description": "something something"
+        }
+      ]
+    }
+  },
+  "slider-layout#department-slider-double-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 1,
+        "phone": 1
+      },
+      "blockClass": "department-slider-double",
+      "infinite": true,
+      "fullWidth": true,
+      "showPaginationDots": "mobileOnly",
+      "showNavigationArrows": "never"
+    }
+  }
+}

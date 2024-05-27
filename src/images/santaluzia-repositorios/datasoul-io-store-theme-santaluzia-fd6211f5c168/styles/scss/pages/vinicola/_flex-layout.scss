@@ -1,0 +1,77 @@
+// geral
+.flexRow--vinicola {
+  :global(.vtex-store-components-3-x-container) {
+    max-width: 100%;
+    padding: 0;
+  }
+}
+
+// shelf
+.flexCol--vinicola-shelf {
+  background: #101010;
+  margin-bottom: 65px;
+  padding: 50px 0;
+  height: auto;
+
+  @media(min-width: 1026px) {
+    font-size: 30px;
+    margin-bottom: 95px;
+  }
+}
+
+.flexColChild--vinicola-shelf,
+.flexRow--vinicola-sections,
+.flexCol--vinicola-banner-full,
+.flexRow--vinicola .flexRowContent--slider-shelf,
+.flexRowContent--vinicola-tabs {
+  width: 100%;
+  max-width: 1232px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.flexRow--vinicola-sections,
+.flexCol--vinicola-banner-full,
+.flexRow--vinicola-tabs {
+  margin-bottom: 65px;
+
+  @media(min-width: 1026px) {
+    margin-bottom: 95px;
+  }
+}
+
+.flexRowContent--vinicola-sections {
+  gap: 40px;
+  flex-direction: column;
+  display: flex;
+
+  @media(min-width: 1026px) {
+    gap: 80px;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  @media(max-width: 1025px) {
+    .stretchChildrenWidth {
+      width: 100%!important;
+    }
+  }
+}
+
+.flexRowContent--vinicola-right {
+  .stretchChildrenWidth {
+    &:first-child {
+      order: 2;
+    }
+
+    &:last-child {
+      order: 1;
+    }
+  }
+}
+
+// tabs
+.flexRow--vinicola-tabs {
+  background: #F3F1EC;
+  padding: 45px 0;
+}

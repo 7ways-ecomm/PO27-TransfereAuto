@@ -1,0 +1,20 @@
+.link--footer-assistance-number,
+.link--footer-whatsapp-number {
+  display: block;
+  text-decoration: none;
+}
+
+.link--footer-assistance-number {
+  padding: 0 0 8px;
+}
+
+.link--footer-whatsapp-number {
+  padding: 16px 0 24px;
+}
+
+.childrenContainer--footer-assistance-number,
+.childrenContainer--footer-whatsapp-number {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}

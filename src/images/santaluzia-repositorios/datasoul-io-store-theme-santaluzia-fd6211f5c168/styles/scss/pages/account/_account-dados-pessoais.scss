@@ -1,0 +1,96 @@
+:global(.vtex-account__page-body) {
+  padding: 0;
+
+  :global(.flex.flex-column-s.flex-row-ns) {
+    gap: 15px;
+  }
+
+  .boxContainer {
+    border: 1px solid rgba(125, 110, 91, 0.20);
+    border-radius: 16px;
+    padding: 30px 35px;
+  }
+
+  .boxContainerBody {
+    padding: 0;
+  }
+
+  .profileBoxContainer {
+    :global(.pb5.pr5-ns.flex-auto) {
+      padding-right: 0;
+      padding: 0;
+    }
+  }
+
+  .newsletterBoxContainer {
+    :global(.pb5.pr5-ns.flex-auto) {
+      padding-right: 0;
+      padding: 0;
+    }
+  }
+}
+
+.newsletterContainerMessage {
+  color: #7D6E5B;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.passwordBox {
+  :global(.vtex-checkbox__label) {
+    color: #7D6E5B;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  :global(.vtex-checkbox__inner-container) {
+    border-radius: 4px;
+    border: 1px solid rgba(125, 110, 91, 0.50);
+    background: rgba(125, 110, 91, 0.20);
+
+    &:global(.bg-action-primary) {
+      background: #EC7646;
+      border: 1px solid #EC7646;
+    }
+  }
+}
+
+.profile {
+  .boxContainerFooter {
+    padding: 0;
+    justify-content: flex-start;
+
+    :global(.vtex-button) {
+      border-radius: 4px;
+      border: 1px solid #EC7646;
+      height: 43px;
+      width: 100%;
+      transition: .2s linear;
+
+      @media(min-width: 1026px) {
+        max-width: 175px;
+      }
+
+      &:hover {
+        background: #EC7646;
+
+        :global(.vtex-button__label) {
+          color: #FFF;
+        }
+      }
+
+      :global(.vtex-button__label) {
+        color: #EC7646;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: normal;
+        padding: 0!important;
+      }
+    }
+  }
+}

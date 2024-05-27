@@ -1,15 +1,257 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/src/images/logo-header.png">
+    <link rel="stylesheet/less" type="text/less" href="/build/arquivos/transf-auto-theme.css" media=" screen" />
+    <!-- <link rel="stylesheet" type="text/css" href="./style-page.css?v=202305311318" media=" screen" /> -->
+
+    <title> PO27 | Mais velocidade e inteligência no processo de formalização do financiamento nos 27 Detrans. </title>
 </head>
 
-<body>
+<body id="po-trans">
 
+    <header id="header">
+        <div class="box-all">
+            <div class="box-right">
+                <div class="logo">
+                    <img src="../images/Logo-transfereAuto.png" alt="Logo PO27 Transfere Auto" />
+                    <div class="texts">
+                        <h1 class="h-header">
+                            Transfere Auto
+                        </h1>
+
+                        <span class="text-sub only-mob"> Um produto <b> PO27 </b> </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box-left only-desk">
+                <div class="logo">
+                    <span class="h-header">
+                        Um produto
+                    </span>
+                    <img src="../images/Logo-PO27.png" alt="Logo PO27" />
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <container class="main-box">
+            <section class="sect banner-texts">
+                <div class="box">
+                    <div class="banner-back">
+                        <img class="only-desk" src="../images/img-bkg-car-first.png"
+                            alt="Imagem de um carro em uma estrada" />
+                        <img class="only-mob" src="../images/banner-principal-mob.png"
+                            alt="Imagem de um carro em uma estrada" />
+                    </div>
+
+                    <div class="texts floating">
+                        <h2 class="htres">
+                            Mais facilidade na transferência de veículos dos seus clientes
+                        </h2>
+
+                        <p class="descrt">
+                            Ofereça a transferência veicular para o seu cliente. O Transfere Auto da PO27 representa a
+                            solução ideal para simplificar, otimizar e tornar mais acessível o processo de transferência
+                            veicular para seus clientes.
+                        </p>
+
+                        <a href="?link-saiba">
+                            <button class="btn-saiba">
+                                Saiba mais
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sect video">
+                <div class="box">
+                    <video id="video-po" loop="" aautoplay="" playsinline="" muted="" controls="">
+                        <source src="https://po27.com.br/wp-content/themes/twentytwentyone/imagens/Po27_Final.mp4">
+                    </video>
+
+                    <div class="float-video-click" id="flt-clk-vd">
+                        <div class="box-click">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17"
+                                fill="none">
+                                <path
+                                    d="M13.6338 6.11847C15.6338 7.27317 15.6338 10.1599 13.6338 11.3146L5.41915 16.0573C3.41915 17.212 0.919143 15.7687 0.919143 13.4593L0.919143 3.97382C0.919143 1.66442 3.41914 0.221038 5.41914 1.37574L13.6338 6.11847Z"
+                                    fill="white" />
+                            </svg>
+                            ASSISTA O VÍDEO
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sect mid-banner-texts">
+                <div class="box">
+                    <div class="left-box texts">
+                        <div class="texts floating">
+                            <h3 class="htres">
+                                Transforme a experiência dos seus clientes com o Transfere Auto
+                            </h3>
+
+                            <p class="descrt">
+                                Através de uma abordagem centrada no cliente, o Transfere Auto assume o relacionamento,
+                                gestão de pagamentos e base de despachantes e vistoriadores.
+                            </p>
+
+                            <a href="?link-fale">
+                                <button class="btn-fale">
+                                    Fale com o nosso time
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="right-box img-box">
+                        <div class="img">
+                            <img src="../images/banner-notebook-right.png" alt="Homem mexendo no notebook">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sect carrosel">
+                <div class="box">
+                    <div class="left-box texts">
+                        <h3>
+                            Empresas que facilitam
+                            a transferência veicular
+                            com o Transfere Auto
+                        </h3>
+                    </div>
+
+                    <div class="right-box carousel">
+                        <div class="slick-box" id="key-slk-dep">
+                            <div class="item">
+                                <div class="text">
+                                    <div class="box-svg left">
+                                        <svg width="52" height="39" viewBox="0 0 52 39" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path opacity="0.1"
+                                                d="M22.96 0.799998L11.8 18.8C14.56 18.92 16.78 19.94 18.46 21.86C20.14 23.78 20.98 26.06 20.98 28.7C20.98 31.58 19.96 33.98 17.92 35.9C16 37.7 13.6 38.6 10.72 38.6C7.96 38.6 5.56 37.76 3.52 36.08C1.48 34.28 0.46 31.76 0.46 28.52C0.46 25.64 1.48 22.46 3.52 18.98C5.68 15.38 9.1 10.16 13.78 3.32L15.4 0.799998H22.96ZM51.94 0.799998L40.78 18.8C43.42 18.92 45.58 19.94 47.26 21.86C48.94 23.78 49.78 26.06 49.78 28.7C49.78 31.58 48.82 33.98 46.9 35.9C44.98 37.7 42.58 38.6 39.7 38.6C36.82 38.6 34.36 37.76 32.32 36.08C30.28 34.28 29.26 31.76 29.26 28.52C29.26 25.64 30.28 22.46 32.32 18.98C34.48 15.38 37.9 10.16 42.58 3.32L44.38 0.799998H51.94Z"
+                                                fill="black" />
+                                        </svg>
+                                    </div>
+                                    <p class="depoiment-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec ligula et
+                                        tortor vulputate tempus. Vestibulum ante ipsum primis in faucibus orci luctus et
+                                        ultrices posuere cubilia curae; Class aptent taciti sociosqu ad litora torquent
+                                        per conubia nostra, per inceptos himenaeos.
+                                    </p>
+                                    <div class="box-svg right">
+                                        <svg width="52" height="39" viewBox="0 0 52 39" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path opacity="0.1"
+                                                d="M29.1101 0.799998L40.2701 18.8C37.5101 18.92 35.2901 19.94 33.6101 21.86C31.9301 23.78 31.0901 26.06 31.0901 28.7C31.0901 31.58 32.1101 33.98 34.1501 35.9C36.0701 37.7 38.4701 38.6 41.3501 38.6C44.1101 38.6 46.5101 37.76 48.5501 36.08C50.5901 34.28 51.6101 31.76 51.6101 28.52C51.6101 25.64 50.5901 22.46 48.5501 18.98C46.3901 15.38 42.9701 10.16 38.2901 3.32L36.6701 0.799998H29.1101ZM0.130064 0.799998L11.2901 18.8C8.65007 18.92 6.49007 19.94 4.81007 21.86C3.13007 23.78 2.29006 26.06 2.29006 28.7C2.29006 31.58 3.25006 33.98 5.17006 35.9C7.09007 37.7 9.49007 38.6 12.3701 38.6C15.2501 38.6 17.7101 37.76 19.7501 36.08C21.7901 34.28 22.8101 31.76 22.8101 28.52C22.8101 25.64 21.7901 22.46 19.7501 18.98C17.5901 15.38 14.1701 10.16 9.49007 3.32L7.69007 0.799998H0.130064Z"
+                                                fill="black" />
+                                        </svg>
+                                    </div>
+                                </div>
+
+                                <div class="info-client">
+                                    <div class="avatar">
+                                        <img src="" alt="" />
+                                    </div>
+                                    <div class="texts">
+                                        <b class="empresa"> Empresa NUMERO 1 </b>
+                                        <span class="nome"> John Doe, CEO </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="text">
+                                    <div class="box-svg left">
+                                        <svg width="52" height="39" viewBox="0 0 52 39" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path opacity="0.1"
+                                                d="M22.96 0.799998L11.8 18.8C14.56 18.92 16.78 19.94 18.46 21.86C20.14 23.78 20.98 26.06 20.98 28.7C20.98 31.58 19.96 33.98 17.92 35.9C16 37.7 13.6 38.6 10.72 38.6C7.96 38.6 5.56 37.76 3.52 36.08C1.48 34.28 0.46 31.76 0.46 28.52C0.46 25.64 1.48 22.46 3.52 18.98C5.68 15.38 9.1 10.16 13.78 3.32L15.4 0.799998H22.96ZM51.94 0.799998L40.78 18.8C43.42 18.92 45.58 19.94 47.26 21.86C48.94 23.78 49.78 26.06 49.78 28.7C49.78 31.58 48.82 33.98 46.9 35.9C44.98 37.7 42.58 38.6 39.7 38.6C36.82 38.6 34.36 37.76 32.32 36.08C30.28 34.28 29.26 31.76 29.26 28.52C29.26 25.64 30.28 22.46 32.32 18.98C34.48 15.38 37.9 10.16 42.58 3.32L44.38 0.799998H51.94Z"
+                                                fill="black" />
+                                        </svg>
+                                    </div>
+                                    <p class="depoiment-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec ligula et
+                                        tortor vulputate tempus. Vestibulum ante ipsum primis in faucibus orci luctus et
+                                        ultrices posuere cubilia curae; Class aptent taciti sociosqu ad litora torquent
+                                        per conubia nostra, per inceptos himenaeos.
+                                    </p>
+                                    <div class="box-svg right">
+                                        <svg width="52" height="39" viewBox="0 0 52 39" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path opacity="0.1"
+                                                d="M29.1101 0.799998L40.2701 18.8C37.5101 18.92 35.2901 19.94 33.6101 21.86C31.9301 23.78 31.0901 26.06 31.0901 28.7C31.0901 31.58 32.1101 33.98 34.1501 35.9C36.0701 37.7 38.4701 38.6 41.3501 38.6C44.1101 38.6 46.5101 37.76 48.5501 36.08C50.5901 34.28 51.6101 31.76 51.6101 28.52C51.6101 25.64 50.5901 22.46 48.5501 18.98C46.3901 15.38 42.9701 10.16 38.2901 3.32L36.6701 0.799998H29.1101ZM0.130064 0.799998L11.2901 18.8C8.65007 18.92 6.49007 19.94 4.81007 21.86C3.13007 23.78 2.29006 26.06 2.29006 28.7C2.29006 31.58 3.25006 33.98 5.17006 35.9C7.09007 37.7 9.49007 38.6 12.3701 38.6C15.2501 38.6 17.7101 37.76 19.7501 36.08C21.7901 34.28 22.8101 31.76 22.8101 28.52C22.8101 25.64 21.7901 22.46 19.7501 18.98C17.5901 15.38 14.1701 10.16 9.49007 3.32L7.69007 0.799998H0.130064Z"
+                                                fill="black" />
+                                        </svg>
+                                    </div>
+                                </div>
+
+                                <div class="info-client">
+                                    <div class="avatar">
+                                        <img src="" alt="" />
+                                    </div>
+                                    <div class="texts">
+                                        <b class="empresa"> Empresa NUMERO 2</b>
+                                        <span class="nome"> John Doe, CEO </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </container>
+    </main>
+
+    <footer id="footer">
+        <div class="box-all">
+            <div class="top-footer">
+                <p class="contato">
+                    Entre em contato conosco!
+
+                    <span class="only-mob"> Vamos te ajudar! </span>
+                </p>
+
+                <a href="?link-saiba">
+                    <button class="btn-saiba">
+                        Saiba mais
+                    </button>
+                </a>
+            </div>
+
+            <div class="bottom-footer">
+                <p class="consid">
+                    PO27 2024 Todos os direitos reservados.
+                    <a href="https://po27.com.br/politica-de-privacidade/"> Política de privacidade </a>
+                </p>
+            </div>
+        </div>
+    </footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/less@3.13"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"
+    integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://kit.fontawesome.com/95f0b31fbd.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/imask"></script>
+
+<script type="text/javascript" src="/build/arquivos/transf-auto-theme.js"></script>
 
 </html>

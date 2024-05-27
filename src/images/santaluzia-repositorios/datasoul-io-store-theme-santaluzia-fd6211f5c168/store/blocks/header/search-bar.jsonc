@@ -1,0 +1,23 @@
+{
+  "search-bar#header": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "displayMode": "search-button",
+      "openAutocompleteOnFocus": true,
+      "placeholder": "Faça sua busca",
+      "inputType": "text"
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": [
+      "product-summary.shelf#autocomplete"
+    ],
+    "props": {
+      "maxSuggestedTerms": 5,
+      "maxSuggestedProducts": 4,
+      "productLayout": "VERTICAL"
+    }
+  }
+}

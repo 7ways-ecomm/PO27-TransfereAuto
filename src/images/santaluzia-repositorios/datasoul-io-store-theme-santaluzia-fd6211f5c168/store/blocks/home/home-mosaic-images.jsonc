@@ -1,0 +1,143 @@
+{
+  "responsive-layout.desktop#home-mosaic-images": {
+    "children": [
+      "flex-layout.row#home-mosaic-images-desktop"
+    ]
+  },
+  "responsive-layout.mobile#home-mosaic-images": {
+    "children": [
+      "flex-layout.row#home-mosaic-images-mobile"
+    ]
+  },
+  // Desktop
+  "flex-layout.row#home-mosaic-images-desktop": {
+    "title": "Mosaico de Imagens - Dekstop",
+    "children": [
+      "flex-layout.col#home-mosaic-item-left",
+      "flex-layout.col#home-mosaic-item-center",
+      "flex-layout.col#home-mosaic-item-right"
+    ],
+    "props": {
+      "blockClass": "home-mosaic-images",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#home-mosaic-item-left": {
+    "children": [
+      "image#mosaic-item-1"
+    ],
+    "props": {
+      "blockClass": "home-mosaic-item-left",
+      "width": "24%"
+    }
+  },
+  "flex-layout.col#home-mosaic-item-center": {
+    "children": [
+      "image#mosaic-item-2",
+      "image#mosaic-item-3"
+    ],
+    "props": {
+      "blockClass": "home-mosaic-item-center",
+      "width": "43%"
+    }
+  },
+  "flex-layout.col#home-mosaic-item-right": {
+    "children": [
+      "image#mosaic-item-4"
+    ],
+    "props": {
+      "blockClass": "home-mosaic-item-right",
+      "width": "33%"
+    }
+  },
+  // Mobile
+  "flex-layout.row#home-mosaic-images-mobile": {
+    "title": "Mosaico de Imagens - Mobile",
+    "children": [
+      "flex-layout.row#home-mosaic-item-row-1",
+      "flex-layout.row#home-mosaic-item-row-2"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "home-mosaic-images-mobile"
+    }
+  },
+  "flex-layout.row#home-mosaic-item-row-1": {
+    "children": [
+      "image#mosaic-item-mobile-1",
+      "image#mosaic-item-mobile-2"
+    ],
+    "props": {
+      "blockClass": "home-mosaic-images-mobile-row-1",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#home-mosaic-item-row-2": {
+    "children": [
+      "image#mosaic-item-mobile-3",
+      "image#mosaic-item-mobile-4"
+    ],
+    "props": {
+      "blockClass": "home-mosaic-images-mobile-row-2",
+      "colSizing": "auto"
+    }
+  },
+  /* Images Desktop */
+  "image#mosaic-item-1": {
+    "title": "Imagem 1",
+    "props": {
+      "src": "assets/banners/mock/283x500.png",
+      "blockClass": "mosaic-image"
+    }
+  },
+  "image#mosaic-item-2": {
+    "title": "Imagem 2",
+    "props": {
+      "src": "assets/banners/mock/517x242.png",
+      "blockClass": "mosaic-image"
+    }
+  },
+  "image#mosaic-item-3": {
+    "title": "Imagem 3",
+    "props": {
+      "src": "assets/banners/mock/517x242.png",
+      "blockClass": "mosaic-image"
+    }
+  },
+  "image#mosaic-item-4": {
+    "title": "Imagem 4",
+    "props": {
+      "src": "assets/banners/mock/367x500.png",
+      "blockClass": "mosaic-image"
+    }
+  },
+  /*Images Mobile*/
+  "image#mosaic-item-mobile-1": {
+    "title": "Imagem 1",
+    "props": {
+      "src": "assets/banners/mock/225x346.png",
+      "blockClass": "mosaic-image"
+    }
+  },
+  "image#mosaic-item-mobile-2": {
+    "title": "Imagem 2",
+    "props": {
+      "src": "assets/banners/mock/225x346.png",
+      "blockClass": "mosaic-image"
+    }
+  },
+  "image#mosaic-item-mobile-3": {
+    "title": "Imagem 3",
+    "props": {
+      "src": "assets/banners/mock/460x215.png",
+      "blockClass": "mosaic-image"
+    }
+  },
+  "image#mosaic-item-mobile-4": {
+    "title": "Imagem 4",
+    "props": {
+      "src": "assets/banners/mock/460x215.png",
+      "blockClass": "mosaic-image"
+    }
+  }
+}

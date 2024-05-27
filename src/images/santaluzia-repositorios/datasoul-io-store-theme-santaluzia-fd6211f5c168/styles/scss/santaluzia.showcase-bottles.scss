@@ -1,0 +1,273 @@
+/* GENERAL */
+.Bottles {
+  background-color: #F3F1EC;
+  margin: 0 0 32px;
+  padding: 48px 0;
+
+  @media(min-width: 1024px) {
+    margin: 0 0 200px;
+    padding: 64px 0 104px;
+  }
+}
+
+.Container {
+  padding: 0 16px;
+  width: 100%;
+
+  @media(min-width: 1024px) {
+    margin: 0 auto;
+    max-width: 1232px;
+  }
+}
+
+.Content {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* GENERAL */
+
+/* TITLE */
+.TitleWrapper {
+  padding: 0 0 32px;
+  width: 100%;
+
+  @media(min-width: 1024px) {
+    padding: 0 0 56px;
+  }
+}
+
+.Title {
+  color: #DD052A;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+
+  @media(min-width: 1024px) {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: left;
+  }
+}
+/* TITLE */
+
+/* MENU */
+.Menu {
+  width: 50%;
+
+  @media(min-width: 1024px) {
+    width: 20%;
+  }
+}
+
+.MenuWrapper {
+
+}
+
+.MenuList {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media(min-width: 1024px) {
+    justify-content: flex-start;
+  }
+}
+
+.MenuItem {
+  border-bottom: 2px solid;
+  border-color: transparent;
+  color: #87765E;
+  cursor: pointer;
+  display: table;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 16px 0;
+  padding: 0 16px 0 0;
+  transition: all .4s;
+}
+
+.MenuItem:hover,
+.MenuItemActive {
+  border-color: #DD052A;
+  color: #5D544D;
+}
+/* MENU */
+
+/* BUTTONS */
+.Buttons {
+  display: flex;
+  margin: 0 -8px;
+  width: 100%;
+
+  @media(min-width: 1024px) {
+    justify-content: space-between;
+    left: 0;
+    padding: 0 32px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.Button {
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 0;
+  cursor: pointer;
+  height: 56px;
+  overflow: hidden;
+  text-indent: -999px;
+  width: 56px;
+}
+
+.ButtonPrev {
+  background-image: url("assets/icons/png/icon-circle-arrow-prev.png");
+  margin: 0 8px;
+}
+
+.ButtonNext {
+  background-image: url("assets/icons/png/icon-circle-arrow-next.png");
+  margin: 0 8px;
+}
+/* BUTTONS */
+
+/* SLIDER */
+.Slider {
+  position: relative;
+  width: 50%;
+
+  @media(min-width: 1024px) {
+    padding: 0 32px;
+    width: 40%;
+    margin-bottom: -200px;
+  }
+}
+
+.SliderWrapper {
+  height: 100%;
+  display: block;
+}
+
+.SliderContent {
+
+  // @media(min-width: 1024px) {
+  //   position: absolute;
+  // }
+}
+
+.SliderImage {
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+/* SLIDER */
+
+/* DETAILS */
+.Details {
+  padding: 48px 0 0;
+
+  @media(min-width: 1024px) {
+    padding: 0;
+    width: 40%;
+  }
+}
+
+.DetailsWrapper {
+
+}
+
+.DetailsContent {
+
+}
+
+.DetailsLink {
+  color: #5D544D;
+  text-decoration: none;
+}
+
+.DetailsTitle {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 0;
+  padding: 0 0 16px;
+  text-transform: uppercase;
+
+  @media(min-width: 1024px) {
+    padding: 0 0 24px;
+  }
+}
+
+.DetailsDescription {
+  font-size: 16px;
+  line-height: 32px;
+  margin: 0;
+  padding: 0 0 16px;
+
+  @media(min-width: 1024px) {
+    padding: 0 0 24px;
+  }
+}
+
+.DetailsPrice {
+  color: #DD052A;
+  font-size: 24px;
+  font-weight: bold;
+
+  @media(min-width: 1024px) {
+    font-size: 16px;
+  }
+}
+/* DETAILS */
+
+/* STAMPS */
+
+.Stamps {
+
+}
+
+.StampsWrapper {
+  position: absolute;
+  right: 0;
+  top: 0;
+
+
+  @media(min-width: 1024px) {
+    padding: 0 0 32px;
+    position: static;
+  }
+}
+
+.StampsList {
+  display: flex;
+  flex-direction: column;
+
+  @media(min-width: 1024px) {
+    flex-direction: row;
+    margin: 0 -12px;
+  }
+}
+
+.StampsItem {
+  padding: 4px 0;
+
+  @media(min-width: 1024px) {
+    padding: 0 12px;
+  }
+}
+
+.StampsImage {
+  height: 72px;
+  width: 72px;
+
+  @media(min-width: 1024px) {
+    height: 88px;
+    width: 88px;
+  }
+}
+/* STAMPS */

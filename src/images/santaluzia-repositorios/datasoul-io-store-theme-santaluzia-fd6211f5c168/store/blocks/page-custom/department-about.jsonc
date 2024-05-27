@@ -1,0 +1,69 @@
+{
+  "flex-layout.row#department-about": {
+    "title": "Sobre o Departamento",
+    "children": [
+      "flex-layout.col#department-about-text",
+      "flex-layout.col#department-about-image"
+    ],
+    "props": {
+      "blockClass": [
+        "department-about"
+      ]
+    }
+  },
+  "flex-layout.col#department-about-text": {
+    "children": [
+      "rich-text#department-about-title",
+      "rich-text#department-about-subtitle",
+      "link#department-about-button"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "width": "35%",
+      "blockClass": [
+        "department-about"
+      ]
+    }
+  },
+  "rich-text#department-about-title": {
+    "title": "Título",
+    "props": {
+      "text": "Seleção especial de premiados",
+      "blockClass": "department-about-title"
+    }
+  },
+  "rich-text#department-about-subtitle": {
+    "title": "Subtítulo",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elit felis, efficitur vel nisi in, pulvinar pretium lacus. Aenean ultricies fringilla nisi. Aliquam a vehicula nulla. Ut at tempus tortor. Nam rutrum nisi in viverra ultricies. Cras et lacinia nisl, in vestibulum ligula.",
+      "blockClass": "department-about-subtitle"
+    }
+  },
+  "link#department-about-button": {
+    "title": "Botão",
+    "props": {
+      "href": "/#",
+      "label": "Confira agora",
+      "blockClass": "department-about-button",
+      "target": "_self"
+    }
+  },
+  "flex-layout.col#department-about-image": {
+    "children": [
+      "image#department-about-image"
+    ],
+    "props": {
+      "blockClass": [
+        "department-about-image"
+      ],
+      "width": "50%"
+    }
+  },
+  "image#department-about-image": {
+    "title": "Imagem",
+    "props": {
+      "blockClass": "department-about-image",
+      "src": "assets/banners/mock/486x460.png"
+    }
+  }
+}

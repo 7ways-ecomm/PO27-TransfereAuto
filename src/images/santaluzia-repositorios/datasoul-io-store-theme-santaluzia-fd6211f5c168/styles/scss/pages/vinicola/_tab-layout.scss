@@ -1,0 +1,79 @@
+.container--vinicola {
+  display: flex;
+  gap: 55px;
+
+  @media(max-width: 1025px) {
+    flex-direction: column;
+    padding-top: 100px;
+    position: relative;
+  }
+
+  .listContainer {
+    justify-content: flex-start;
+    display: flex;
+    gap: 30px;
+
+    @media(max-width: 1025px) {
+      overflow-x: auto;
+      flex-wrap: nowrap;
+    }
+
+    @media(min-width: 1026px) {
+      width: 20%;
+      flex-direction: column;
+    }
+  }
+
+  .contentContainer {
+    @media(min-width: 1026px) {
+      width: 80%;
+    }
+  }
+
+  .listItem {
+    margin: 0;
+    padding: 0;
+
+    :global(.vtex-button) {
+      background: transparent;
+      border: none;
+      min-height: auto;
+    }
+
+    :global(.vtex-button__label) {
+      padding: 0!important;
+      font-size: 16px;
+      line-height: normal;
+      color: #7D6E5B;
+      font-weight: 700;
+      border-bottom: 2px solid transparent;
+      white-space: nowrap;
+    }
+  }
+
+  .listItemActive {
+    :global(.vtex-button__label) {
+      border-bottom: 2px solid #DD052A;
+    }
+  }
+
+  .contentContainer {
+    @media(min-width: 1026px) {
+      width: 80%;
+    }
+  }
+
+  .contentItem {
+    display: flex;
+    align-items: center;
+
+    @media(min-width: 1026px) {
+      gap: 80px;
+    }
+
+    @media(max-width: 1025px) {
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
+}

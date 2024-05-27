@@ -1,0 +1,46 @@
+.flexRowContent--assemble-your-gifts {
+  background: #f6f3f1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 48px;
+  margin-bottom: 5px;
+}
+
+.flexRowContent--assemble-your-gifts--form {
+  justify-content: center;
+  gap: 40px;
+  padding: 36px 23px;
+
+  @media screen and (min-width: 1024px) {
+    padding: 40px 49px;
+  }
+}
+
+.flexCol--gifts-form__sidebar {
+  gap: 2px;
+  height: auto;
+  margin-bottom: 24px;
+  @media screen and (min-width: 1024px) {
+    margin-bottom: 0;
+    max-width: 300px;
+  }
+  .flexColChild {
+    background-color: #fff;
+    padding: 34px 40px 27px 30px;
+
+    &:first-child {
+      border-top-right-radius: 16px;
+      border-top-left-radius: 16px;
+
+      padding-top: 41px;
+      padding-bottom: 27px;
+    }
+    &:last-child {
+      border-bottom-right-radius: 16px;
+      border-bottom-left-radius: 16px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "login": {
+    "title": "Login desktop",
+    "props": {
+      "showIconProfile": false,
+      "hideIconLabel": false,
+      "blockClass": "header-login-icon"
+    }
+  }
+}

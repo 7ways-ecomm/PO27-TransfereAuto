@@ -1,0 +1,30 @@
+.imageElement--pascoa-banner {
+  width: 100%;
+  display: block;
+}
+
+.imageElement--pascoa-header-image {
+  width: 100%;
+  max-width: 150px;
+  margin: -150px auto 15px auto;
+  display: block;
+
+  @media(min-width: 1026px) {
+    max-width: 190px;
+    margin: -180px auto 15px auto;
+  }
+}
+
+.imageElement--pascoa-card-image {
+  width: 100%;
+  display: block;
+
+  @media(min-width: 1026px) {
+    max-width: 370px;
+  }
+
+  @media(max-width: 1025px) {
+    height: 186px;
+    object-fit: cover;
+  }
+}

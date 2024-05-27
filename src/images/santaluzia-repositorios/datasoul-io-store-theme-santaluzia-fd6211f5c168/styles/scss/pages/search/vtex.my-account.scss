@@ -1,0 +1,15 @@
+:global(.render-route-store-search-department),
+:global(.render-route-store-search-category),
+:global(.render-route-store-search-subcategory),
+:global(.render-route-store-search-brand) {
+  &::before {
+    @media(min-width: 1026px) {
+      content: "";
+      width: 100%;
+      height: 190px;
+      background: #E1D8D0;
+      position: absolute;
+      top: 181px;
+    }
+  }
+}

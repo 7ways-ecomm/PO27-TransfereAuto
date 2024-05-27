@@ -1,0 +1,728 @@
+{
+  "drawer#menu-mobile": {
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+      "menu#drawer"
+    ]
+  },
+  "menu#drawer": {
+    "children": [
+      "flex-layout.row#menu-mobile"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-mobile"
+    }
+  },
+  "flex-layout.row#menu-mobile": {
+    "title": "Menu - Mobile",
+    "children": [
+      "flex-layout.row#menu-main-mobile",
+      "vtex.menu@2.x:menu#menu-items-mobile",
+      "rich-text#menu-login-mobile"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "menu-container__mobile"
+      ]
+    }
+  },
+  "rich-text#menu-login-mobile": {
+    "title": "Minha Conta",
+    "props": {
+      "text": "[Minha Conta](/account)",
+      "blockClass": "menu-login-mobile"
+    }
+  },
+  "vtex.menu@2.x:menu#menu-items-mobile": {
+    "title": "Primeiro nível - Items",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": [
+        "menu-container-mobile"
+      ]
+    }
+  },
+  "flex-layout.row#menu-main-mobile": {
+    "children": [
+      "menu-item#menu-title-mobile"
+    ],
+    "props": {
+      "blockClass": [
+        "menu-main"
+      ],
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#menu-title-mobile": {
+    "props": {
+      "blockClass": [
+        "menu-main-title-mobile"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Departamentos",
+        "text": "Departamentos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#header-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#header-mobile": {
+    "title": "Segundo nível - Principal - Items",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-container-item-mobile"
+    },
+    "children": [
+      "disposition-layout#menu-mobile"
+    ]
+  },
+  "disposition-layout#menu-mobile": {
+    "title": "Ordenação dos menus",
+    "children": [
+      "menu-item#menu-item-01-mobile",
+      "menu-item#menu-item-02-mobile",
+      "menu-item#menu-item-03-mobile",
+      "menu-item#menu-item-04-mobile",
+      "menu-item#menu-item-05-mobile",
+      "menu-item#menu-item-06-mobile",
+      "menu-item#menu-item-07-mobile",
+      "menu-item#menu-item-08-mobile",
+      "menu-item#menu-item-09-mobile",
+      "menu-item#menu-item-10-mobile",
+      "menu-item#menu-item-11-mobile",
+      "menu-item#menu-item-12-mobile",
+      "menu-item#menu-item-13-mobile",
+      "menu-item#menu-item-14-mobile",
+      "menu-item#menu-item-15-mobile"
+    ],
+    "props": {
+      "disposition": [
+        {
+          "order": 1
+        },
+        {
+          "order": 2
+        },
+        {
+          "order": 3
+        },
+        {
+          "order": 4
+        },
+        {
+          "order": 5
+        },
+        {
+          "order": 6
+        },
+        {
+          "order": 7
+        },
+        {
+          "order": 8
+        },
+        {
+          "order": 9
+        },
+        {
+          "order": 10
+        },
+        {
+          "order": 11
+        },
+        {
+          "order": 12
+        },
+        {
+          "order": 13
+        },
+        {
+          "order": 14
+        },
+        {
+          "order": 15
+        }
+      ]
+    }
+  },
+  // Menu 1
+  "menu-item#menu-item-01-mobile": {
+    "props": {
+      "blockClass": [
+        "header-mobile"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Item Menu 01",
+        "text": "Item Menu 01"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#submenu-mobile-01"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#submenu-mobile-01": {
+    "title": "Submenu",
+    "props": {
+      "orientation": "vertical",
+      "width": "100%",
+      "blockClass": "submenu-mobile"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#submenu-mobile-01-01"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu-mobile-01-01": {
+    "title": "Submenu - Items",
+    "children": [],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  // Menu 2
+  "menu-item#menu-item-02-mobile": {
+    "props": {
+      "blockClass": [
+        "header-mobile"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Item Menu 02",
+        "text": "Item Menu 02"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#submenu-mobile-02"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#submenu-mobile-02": {
+    "title": "Submenu",
+    "props": {
+      "orientation": "vertical",
+      "width": "100%",
+      "blockClass": "submenu-mobile"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#submenu-mobile-02-02"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu-mobile-02-02": {
+    "title": "Submenu - Items",
+    "children": [],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  // Menu 3
+  "menu-item#menu-item-03-mobile": {
+    "props": {
+      "blockClass": [
+        "header-mobile"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Item Menu 03",
+        "text": "Item Menu 03"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#submenu-mobile-03"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#submenu-mobile-03": {
+    "title": "Submenu",
+    "props": {
+      "orientation": "vertical",
+      "width": "100%",
+      "blockClass": "submenu-mobile"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#submenu-mobile-03-03"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu-mobile-03-03": {
+    "title": "Submenu - Items",
+    "children": [],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  // Menu 4
+  "menu-item#menu-item-04-mobile": {
+    "props": {
+      "blockClass": [
+        "header-mobile"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Item Menu 04",
+        "text": "Item Menu 04"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#submenu-mobile-04"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#submenu-mobile-04": {
+    "title": "Submenu",
+    "props": {
+      "orientation": "vertical",
+      "width": "100%",
+      "blockClass": "submenu-mobile"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#submenu-mobile-04-04"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu-mobile-04-04": {
+    "title": "Submenu - Items",
+    "children": [],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  // Menu 5
+  "menu-item#menu-item-05-mobile": {
+    "props": {
+      "blockClass": [
+        "header-mobile"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Item Menu 05",
+        "text": "Item Menu 05"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#submenu-mobile-05"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#submenu-mobile-05": {
+    "title": "Submenu",
+    "props": {
+      "orientation": "vertical",
+      "width": "100%",
+      "blockClass": "submenu-mobile"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#submenu-mobile-05-05"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu-mobile-05-05": {
+    "title": "Submenu - Items",
+    "children": [],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  // Menu 6
+  "menu-item#menu-item-06-mobile": {
+    "props": {
+      "blockClass": [
+        "header-mobile"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Item Menu 06",
+        "text": "Item Menu 06"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#submenu-mobile-06"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#submenu-mobile-06": {
+    "title": "Submenu",
+    "props": {
+      "orientation": "vertical",
+      "width": "100%",
+      "blockClass": "submenu-mobile"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#submenu-mobile-06-06"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu-mobile-06-06": {
+    "title": "Submenu - Items",
+    "children": [],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  // Menu 7
+  "menu-item#menu-item-07-mobile": {
+    "props": {
+      "blockClass": [
+        "header-mobile"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Item Menu 07",
+        "text": "Item Menu 07"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#submenu-mobile-07"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#submenu-mobile-07": {
+    "title": "Submenu",
+    "props": {
+      "orientation": "vertical",
+      "width": "100%",
+      "blockClass": "submenu-mobile"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#submenu-mobile-07-07"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu-mobile-07-07": {
+    "title": "Submenu - Items",
+    "children": [],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  // Menu 8
+  "menu-item#menu-item-08-mobile": {
+    "props": {
+      "blockClass": [
+        "header-mobile"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Item Menu 08",
+        "text": "Item Menu 08"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#submenu-mobile-08"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#submenu-mobile-08": {
+    "title": "Submenu",
+    "props": {
+      "orientation": "vertical",
+      "width": "100%",
+      "blockClass": "submenu-mobile"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#submenu-mobile-08-08"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu-mobile-08-08": {
+    "title": "Submenu - Items",
+    "children": [],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  // Menu 9
+  "menu-item#menu-item-09-mobile": {
+    "props": {
+      "blockClass": [
+        "header-mobile"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Item Menu 09",
+        "text": "Item Menu 09"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#submenu-mobile-09"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#submenu-mobile-09": {
+    "title": "Submenu",
+    "props": {
+      "orientation": "vertical",
+      "width": "100%",
+      "blockClass": "submenu-mobile"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#submenu-mobile-09-09"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu-mobile-09-09": {
+    "title": "Submenu - Items",
+    "children": [],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  // Menu 10
+  "menu-item#menu-item-10-mobile": {
+    "props": {
+      "blockClass": [
+        "header-mobile"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Item Menu 10",
+        "text": "Item Menu 10"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#submenu-mobile-10"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#submenu-mobile-10": {
+    "title": "Submenu",
+    "props": {
+      "orientation": "vertical",
+      "width": "100%",
+      "blockClass": "submenu-mobile"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#submenu-mobile-10-10"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu-mobile-10-10": {
+    "title": "Submenu - Items",
+    "children": [],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  // Menu 11
+  "menu-item#menu-item-11-mobile": {
+    "props": {
+      "blockClass": [
+        "header-mobile"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Item Menu 11",
+        "text": "Item Menu 11"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#submenu-mobile-11"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#submenu-mobile-11": {
+    "title": "Submenu",
+    "props": {
+      "orientation": "vertical",
+      "width": "100%",
+      "blockClass": "submenu-mobile"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#submenu-mobile-11-11"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu-mobile-11-11": {
+    "title": "Submenu - Items",
+    "children": [],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  // Menu 12
+  "menu-item#menu-item-12-mobile": {
+    "props": {
+      "blockClass": [
+        "header-mobile"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Item Menu 12",
+        "text": "Item Menu 12"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#submenu-mobile-12"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#submenu-mobile-12": {
+    "title": "Submenu",
+    "props": {
+      "orientation": "vertical",
+      "width": "100%",
+      "blockClass": "submenu-mobile"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#submenu-mobile-12-12"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu-mobile-12-12": {
+    "title": "Submenu - Items",
+    "children": [],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  // Menu 13
+  "menu-item#menu-item-13-mobile": {
+    "props": {
+      "blockClass": [
+        "header-mobile"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Item Menu 13",
+        "text": "Item Menu 13"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#submenu-mobile-13"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#submenu-mobile-13": {
+    "title": "Submenu",
+    "props": {
+      "orientation": "vertical",
+      "width": "100%",
+      "blockClass": "submenu-mobile"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#submenu-mobile-13-13"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu-mobile-13-13": {
+    "title": "Submenu - Items",
+    "children": [],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  // Menu 14
+  "menu-item#menu-item-14-mobile": {
+    "props": {
+      "blockClass": [
+        "header-mobile"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Item Menu 14",
+        "text": "Item Menu 14"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#submenu-mobile-14"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#submenu-mobile-14": {
+    "title": "Submenu",
+    "props": {
+      "orientation": "vertical",
+      "width": "100%",
+      "blockClass": "submenu-mobile"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#submenu-mobile-14-14"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu-mobile-14-14": {
+    "title": "Submenu - Items",
+    "children": [],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  // Menu 15
+  "menu-item#menu-item-15-mobile": {
+    "props": {
+      "blockClass": [
+        "header-mobile"
+      ],
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Item Menu 15",
+        "text": "Item Menu 15"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#submenu-mobile-15"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#submenu-mobile-15": {
+    "title": "Submenu",
+    "props": {
+      "orientation": "vertical",
+      "width": "100%",
+      "blockClass": "submenu-mobile"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#submenu-mobile-15-15"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu-mobile-15-15": {
+    "title": "Submenu - Items",
+    "children": [],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

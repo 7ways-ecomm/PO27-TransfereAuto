@@ -1,11 +1,11 @@
 {
   "name": "vtex-speed",
-  "accountName": "lojasolo",
-  "accountDefaultTitle": "ES Tech - Soluções em TI e Comunicação Unificada para Empresas",
+  "accountName": "transfere auto",
+  "accountDefaultTitle": "",
   "version": "5.0.0",
   "secureUrl": true,
   "readmeFilename": "README.md",
-  "description": "VTEX Store development tools - reverse proxy, compilation, minification, optimization and more!",
+  "description": "",
   "scripts": {
     "start": "grunt",
     "sass": "grunt --sass",

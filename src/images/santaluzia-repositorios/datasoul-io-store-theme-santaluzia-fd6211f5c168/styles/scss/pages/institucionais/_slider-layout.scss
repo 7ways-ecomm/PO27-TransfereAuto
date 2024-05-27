@@ -1,0 +1,70 @@
+// presentes
+.sliderLayoutContainer--presentes {
+  max-width: 1200px;
+  margin: 60px 0;
+  padding: 0;
+
+  @media(max-width: 1025px) {
+    margin: 60px 0 80px 0;
+  }
+
+  @media(min-width: 1026px) {
+    margin: 60px 0;
+  }
+
+  &::after {
+    content: "Fotos ilustrativas";
+    position: absolute;
+    font-size: 12px;
+    line-height: normal;
+    color: var(--secondary);
+    font-weight: 400;
+
+    @media(max-width: 1025px) {
+      bottom: -50px;
+      width: 100%;
+      text-align: center;
+    }
+
+    @media(min-width: 1026px) {
+      bottom: -25px;
+      left: 105px;
+    }
+  }
+
+  .sliderLeftArrow--presentes {
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgba(136, 118, 94, 0.3);
+    border-radius: 50%;
+    margin-left: 14px;
+
+    &::before {
+      content: "";
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='18' viewBox='0 0 11 18' fill='none'%3E%3Cpath opacity='0.3' d='M10 1L2 9L10 17' stroke='%2388765E' stroke-width='2'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      width: 8px;
+      height: 16px;
+    }
+  }
+
+  .sliderRightArrow--presentes {
+    display: none;
+  }
+
+  .caretIcon--presentes {
+    display: none;
+  }
+
+  .sliderTrackContainer--presentes {
+    @media(min-width: 1026px) {
+      margin-left: 80px;
+    }
+  }
+}
+
+.paginationDotsContainer--presentes {
+  bottom: -25px;
+}

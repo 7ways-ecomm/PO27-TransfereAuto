@@ -1,0 +1,79 @@
+.container--vinicola-shelf-title {
+  display: block;
+}
+
+.paragraph--vinicola-shelf-title {
+  font-size: 24px;
+  line-height: normal;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 20px 0;
+
+  @media(min-width: 1026px) {
+    font-size: 30px;
+  }
+}
+
+.paragraph--vinicola-brand-title {
+  font-size: 16px;
+  line-height: normal;
+  color: #877667;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0 0 10px 0;
+}
+
+.paragraph--vinicola-brand-subtitle {
+  font-size: 25px;
+  line-height: normal;
+  color: #DD052A;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0 0 15px 0;
+}
+
+.paragraph--vinicola-brand-text {
+  font-size: 12px;
+  line-height: 22px;
+  color: #7D6E5B;
+  font-weight: 400;
+  margin: 0;
+}
+
+// tabs
+.paragraph--vinicola-tabs-title {
+  font-size: 25px;
+  line-height: normal;
+  color: #DD052A;
+  font-weight: 700;
+  margin: 0 0 15px 0;
+}
+
+.paragraph--vinicola-tabs-text {
+  font-size: 12px;
+  line-height: 22px;
+  color: #7D6E5B;
+  font-weight: 400;
+  margin: 0;
+}
+
+.container--vinicola-tabs-title-general {
+  @media(max-width: 1025px) {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+}
+
+.paragraph--vinicola-tabs-title-general {
+  font-size: 24px;
+  line-height: normal;
+  color: #DD052A;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+}

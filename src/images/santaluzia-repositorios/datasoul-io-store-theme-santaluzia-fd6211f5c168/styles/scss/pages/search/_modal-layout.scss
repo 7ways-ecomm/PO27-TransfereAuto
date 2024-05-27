@@ -1,0 +1,78 @@
+.paperNotFullScreen {
+  max-width: 550px;
+  border-radius: 16px;
+  z-index: 99;
+
+  @media(min-width: 1026px) {
+    padding: 70px;
+  }
+
+  @media(max-width: 1025px) {
+    padding: 40px;
+  }
+}
+
+.closeButton--modal-18-close {
+  background: #AEA400;
+  border: 1px solid #AEA400;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto 5px auto;
+  min-height: auto;
+  transition: .2s linear;
+
+  &:hover {
+    background: var(--primary);
+  }
+}
+
+.closeButtonLabel--modal-18-close {
+  font-size: 12px;
+  line-height: normal;
+  color: var(--white);
+  font-weight: 700;
+  padding: 12px;
+  display: block;
+}
+
+:global(.vtex-store-link-0-x-link--modal-18-back) {
+  text-decoration: none;
+}
+
+:global(.vtex-store-link-0-x-label--modal-18-back) {
+  background: transparent;
+  border: 1px solid var(--primary);
+  border-radius: 4px;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto 5px auto;
+  min-height: auto;
+  transition: .2s linear;
+  font-size: 12px;
+  line-height: normal;
+  color: var(--primary);
+  font-weight: 700;
+  padding: 12px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  box-sizing: border-box;
+
+  &:hover {
+    background: var(--primary);
+    color: var(--white);
+  }
+}
+
+.container--modal-18 {
+  &::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.80);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+  }
+}

@@ -1,0 +1,43 @@
+{
+  // banner
+  "flex-layout.row#search-404-banner": {
+    "title": "Banner",
+    "children": [
+      "list-context.image-list#search-404-banner"
+    ],
+    "props": {
+      "blockClass": [
+        "search-banner"
+      ]
+    }
+  },
+  "list-context.image-list#search-404-banner": {
+    "title": "Slider",
+    "children": [
+      "slider-layout#search-404-banner"
+    ],
+    "props": {
+      "images": [
+        {
+          "image": "assets/banners/mock/1200x170.png",
+          "mobileImage": "assets/banners/mock/360x450.png",
+          "description": "Compre com total facilidade"
+        }
+      ]
+    }
+  },
+  "slider-layout#search-404-banner": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "search-banner",
+      "showNavigationArrows": "never",
+      "showPaginationDots": "mobileOnly",
+      "fullWidth": true
+    }
+  }
+}

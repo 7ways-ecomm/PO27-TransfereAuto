@@ -1,0 +1,59 @@
+{
+  "flex-layout.col#institucional-content": {
+    "title": "Conteúdo",
+    "children": [
+      "experimental__visibility-layout#institucional-title",
+      "experimental__visibility-layout#institucional-text",
+      "experimental__visibility-layout#content-linha-do-tempo",
+      "experimental__visibility-layout#buttons-trabalhe-conosco",
+      "experimental__visibility-layout#institucional-fale-conosco"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  // title
+  "experimental__visibility-layout#institucional-title": {
+    "title": "Título - Visibilidade",
+    "children": [
+      "rich-text#institucional-title"
+    ],
+    "props": {
+      "visible": false
+    }
+  },
+  "rich-text#institucional-title": {
+    "title": "Título",
+    "props": {
+      "text": "",
+      "blockClass": "title-institucional"
+    }
+  },
+  // texto
+  "experimental__visibility-layout#institucional-text": {
+    "title": "Texto - Visibilidade",
+    "children": [
+      "rich-text#institucional-text"
+    ],
+    "props": {
+      "visible": false
+    }
+  },
+  "rich-text#institucional-text": {
+    "title": "Texto",
+    "props": {
+      "text": "",
+      "blockClass": "text-institucional"
+    }
+  },
+  // formulario
+  "experimental__visibility-layout#institucional-fale-conosco": {
+    "title": "Formulário Fale Conosco - Visibilidade",
+    "children": [
+      "contact-us-form"
+    ],
+    "props": {
+      "visible": false
+    }
+  }
+}

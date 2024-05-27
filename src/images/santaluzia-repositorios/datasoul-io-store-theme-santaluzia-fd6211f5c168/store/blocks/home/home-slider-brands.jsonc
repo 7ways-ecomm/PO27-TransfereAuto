@@ -1,0 +1,89 @@
+{
+  "flex-layout.row#home-slider-brands": {
+    "title": "Marcas",
+    "children": [
+      "rich-text#home-brands-title",
+      "rich-text#home-brands-subtitle",
+      "list-context.image-list#home-slider-brands"
+    ],
+    "props": {
+      "blockClass": [
+        "home-slider-brands"
+      ],
+      "colSizing": "auto",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#home-brands-title": {
+    "title": "Título",
+    "props": {
+      "text": "Marcas",
+      "blockClass": [
+        "home-brands-title",
+        "title-default"
+      ]
+    }
+  },
+  "rich-text#home-brands-subtitle": {
+    "title": "Subtítulo",
+    "props": {
+      "text": "A casa Santa luzia traz uma enorme variedade de marcas  até você",
+      "blockClass": "home-brands-subtitle"
+    }
+  },
+  "list-context.image-list#home-slider-brands": {
+    "title": "Imagens",
+    "children": [
+      "slider-layout#home-slider-brands"
+    ],
+    "props": {
+      "images": [
+        {
+          "image": "assets/banners/mock/142x70.png",
+          "description": "something something"
+        },
+        {
+          "image": "assets/banners/mock/142x70.png",
+          "description": "something something"
+        },
+        {
+          "image": "assets/banners/mock/142x70.png",
+          "description": "something something"
+        },
+        {
+          "image": "assets/banners/mock/142x70.png",
+          "description": "something something"
+        },
+        {
+          "image": "assets/banners/mock/142x70.png",
+          "description": "something something"
+        },
+        {
+          "image": "assets/banners/mock/142x70.png",
+          "description": "something something"
+        }
+      ]
+    }
+  },
+  "slider-layout#home-slider-brands": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 3
+      },
+      "infinite": true,
+      "blockClass": "slider-brands",
+      "centerMode": {
+        "phone": "to-the-left",
+        "desktop": "disabled"
+      },
+      "centerModeSlidesGap": 20,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "mobileOnly",
+      "fullWidth": false,
+      "arrowSize": 30
+    }
+  }
+}

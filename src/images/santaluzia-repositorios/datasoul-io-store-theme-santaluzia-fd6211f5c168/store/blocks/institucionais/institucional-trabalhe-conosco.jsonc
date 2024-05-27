@@ -1,0 +1,34 @@
+{
+  "experimental__visibility-layout#buttons-trabalhe-conosco": {
+    "title": "Trabalhe Conosco - Visibilidade",
+    "children": [
+      "flex-layout.row#buttons-trabalhe-conosco"
+    ],
+    "props": {
+      "visible": false
+    }
+  },
+  "flex-layout.row#buttons-trabalhe-conosco": {
+    "children": [
+      "rich-text#curriculo-trabalhe-conosco",
+      "rich-text#vagas-trabalhe-conosco"
+    ],
+    "props": {
+      "blockClass": "buttons-trabalhe-conosco"
+    }
+  },
+  "rich-text#curriculo-trabalhe-conosco": {
+    "title": "Currículo",
+    "props": {
+      "text": "Envie seu currículo para curriculo@santaluzia.com.br",
+      "blockClass": "menu-inst-curriculo"
+    }
+  },
+  "rich-text#vagas-trabalhe-conosco": {
+    "title": "Vagas",
+    "props": {
+      "text": "[Confira nossas vagas](https://casasantaluzia.pandape.infojobs.com.br/)",
+      "blockClass": "menu-inst-vagas"
+    }
+  }
+}

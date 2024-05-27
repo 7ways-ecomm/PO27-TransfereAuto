@@ -1,0 +1,17 @@
+.imageElementLink--footer-social-networks {
+  display: inline-block;
+  margin-right: 10px;
+  width: 32px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.imageElement--footer-payment-methods {
+  margin-right: 8px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "responsive-layout.mobile#menu": {
+    "children": [
+      "flex-layout.row#menu-department-mobile"
+    ]
+  },
+  "flex-layout.row#menu-department-mobile": {
+    "title": "Departamento - Menu - Mobile",
+    "children": [
+      "vtex.menu@2.x:menu#menu-department-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu-department-mobile": {
+    "title": "Primeiro nível - Items",
+    "props": {
+      "blockClass": "menu-department-item",
+      "experimentalOptimizeRendering": true,
+      "orientation": "horizontal"
+    }
+  }
+}

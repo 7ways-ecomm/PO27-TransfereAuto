@@ -1,0 +1,45 @@
+{
+  "experimental__visibility-layout#search-slider-category": {
+    "title": "Categorias - Ativar/Desativar",
+    "children": [
+      "flex-layout.row#search-slider-category"
+    ],
+    "props": {
+      "visible": false
+    }
+  },
+  "flex-layout.row#search-slider-category": {
+    "children": [
+      "list-context.image-text-list#search-slider-category"
+    ],
+    "props": {
+      "blockClass": "search-slider-category"
+    }
+  },
+  "list-context.image-text-list#search-slider-category": {
+    "title": "Categorias",
+    "children": [
+      "slider-layout#search-slider-category"
+    ]
+  },
+  "slider-layout#search-slider-category": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "mobile": 2
+      },
+      "blockClass": "search-slider-category",
+      "infinite": true,
+      "usePagination": true,
+      "centerMode": {
+        "phone": "to-the-left",
+        "desktop": "disabled"
+      },
+      "centerModeSlidesGap": 60,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "fullWidth": true
+    }
+  }
+}

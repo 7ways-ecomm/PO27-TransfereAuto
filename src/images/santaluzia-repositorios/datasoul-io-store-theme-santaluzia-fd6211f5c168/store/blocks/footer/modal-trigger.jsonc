@@ -1,0 +1,38 @@
+{
+  "experimental__visibility-layout#bem-estar-animal": {
+    "title": "Visibilidade - Link e Modal compromisso de bem-estar animal",
+    "children": [
+      "modal-trigger#bem-estar-animal"
+    ],
+    "props": {
+      "visible": true
+    }
+  },
+  "modal-trigger#bem-estar-animal": {
+    "children": [
+      "rich-text#bem-estar-animal",
+      "modal-layout#bem-estar-animal"
+    ]
+  },
+  "rich-text#bem-estar-animal": {
+    "props": {
+      "text": "COMPROMISSO DE BEM-ESTAR ANIMAL",
+      "blockClass": "menu-footer"
+    }
+  },
+  "modal-layout#bem-estar-animal": {
+    "children": [
+      "modal-header",
+      "rich-text#modal-bem-estar-animal"
+    ],
+    "props": {
+      "blockClass": "modal-default"
+    }
+  },
+  "rich-text#modal-bem-estar-animal": {
+    "props": {
+      "text": "![mercy for animals](/arquivos/mercy-logo-footer.png) <br/><br/> A Casa Santa Luzia assume o compromisso de não comercializar ovos de galinhas confinadas em gaiolas (de marcas próprias ou de fornecedores terceiros), em todas as suas operações no Brasil, e completará essa transição até 2023.",
+      "blockClass": "modal-default"
+    }
+  }
+}

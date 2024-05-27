@@ -1,0 +1,182 @@
+{
+  // primeira coluna
+  "flex-layout.col#linha-do-tempo-one": {
+    "title": "Primeira Coluna",
+    "children": [
+      "flex-layout.col#tempo-01",
+      "flex-layout.col#tempo-02",
+      "flex-layout.col#tempo-03",
+      "flex-layout.col#tempo-04",
+      "flex-layout.col#tempo-05",
+      "flex-layout.col#tempo-06"
+    ],
+    "props": {
+      "blockClass": "first-column",
+      "preventVerticalStretch": true
+    }
+  },
+  // 01
+  "flex-layout.col#tempo-01": {
+    "title": "Bloco - 1912",
+    "children": [
+      "rich-text#tempo-title-01",
+      "rich-text#tempo-text-01"
+    ],
+    "props": {
+      "blockClass": "bloco-1912",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#tempo-title-01": {
+    "title": "Ano",
+    "props": {
+      "text": "1912",
+      "blockClass": "bloco-tempo-title"
+    }
+  },
+  "rich-text#tempo-text-01": {
+    "title": "Texto",
+    "props": {
+      "text": "Aos 23 anos, o jovem português Daniel Lopes chega ao Brasil com muitos sonhos e uma frase: “Seja sempre o primeiro porque entre o segundo e o último não há diferença”.",
+      "blockClass": "bloco-tempo-text"
+    }
+  },
+  // 02
+  "flex-layout.col#tempo-02": {
+    "title": "Bloco - Década de 30",
+    "children": [
+      "rich-text#tempo-title-02",
+      "rich-text#tempo-text-02"
+    ],
+    "props": {
+      "blockClass": "bloco-30",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#tempo-title-02": {
+    "title": "Ano",
+    "props": {
+      "text": "Década de 30",
+      "blockClass": "bloco-tempo-title"
+    }
+  },
+  "rich-text#tempo-text-02": {
+    "title": "Texto",
+    "props": {
+      "text": "A chegada do fogão a gás e as mudanças nos hábitos alimentares das famílias trouxe a busca por alimentos industrializados, com forte influência dos imigrantes. Assim, além dos ingredientes tradicionais da cozinha, como angu, tutu, farofa e cuscuz, passaram a fazer parte das listas de produtos da Santa Luzia o bacalhau o azeite de oliva, a batata e o macarrão.",
+      "blockClass": "bloco-tempo-text"
+    }
+  },
+  // 03
+  "flex-layout.col#tempo-03": {
+    "title": "Bloco - 1952",
+    "children": [
+      "rich-text#tempo-title-03",
+      "rich-text#tempo-text-03"
+    ],
+    "props": {
+      "blockClass": "bloco-1952",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#tempo-title-03": {
+    "title": "Ano",
+    "props": {
+      "text": "1952",
+      "blockClass": "bloco-tempo-title"
+    }
+  },
+  "rich-text#tempo-text-03": {
+    "title": "Texto",
+    "props": {
+      "text": "Este é o momento em que as novas gerações da Casa Santa Luzia tomam lugar no negócio. O fundador repartiu o comando da Casa com quatro sócios: o sobrinho de sua cunhada, Antonio Lopes da Silva, assumiu o controle das finanças, junto com João Nunes Pereira, seu genro. Seu sobrinho Jorge da Conceição Lopes encabeçou o atendimento ao cliente e as entregas. Eseu único filho homem, Álvaro Lopes, ficou com a área de compras.",
+      "blockClass": "bloco-tempo-text"
+    }
+  },
+  // 04
+  "flex-layout.col#tempo-04": {
+    "title": "Bloco - Década de 60",
+    "children": [
+      "rich-text#tempo-title-04",
+      "rich-text#tempo-text-04"
+    ],
+    "props": {
+      "blockClass": "bloco-60",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#tempo-title-04": {
+    "title": "Ano",
+    "props": {
+      "text": "Década de 60",
+      "blockClass": "bloco-tempo-title"
+    }
+  },
+  "rich-text#tempo-text-04": {
+    "title": "Texto",
+    "props": {
+      "text": "A Rua Augusta torna-se um shopping de luxo a céu aberto na cidade. Cercada por butiques, lojas de discos, casas de chá e até uma sala de cinema, a Casa Santa Luzia acompanhou os hits da Jovem Guarda nas noites de São Paulo.",
+      "blockClass": "bloco-tempo-text"
+    }
+  },
+  // 05
+  "flex-layout.col#tempo-05": {
+    "title": "Bloco - Fim da década de 80",
+    "children": [
+      "rich-text#tempo-title-05",
+      "rich-text#tempo-text-05",
+      "image#tempo-image-05"
+    ],
+    "props": {
+      "blockClass": "bloco-80",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#tempo-title-05": {
+    "title": "Ano",
+    "props": {
+      "text": "Fim da década de 80",
+      "blockClass": "bloco-tempo-title"
+    }
+  },
+  "rich-text#tempo-text-05": {
+    "title": "Texto",
+    "props": {
+      "text": "A terceira geração da família Lopes chega à loja para dar continuidade à tradição administrativa. Entram para o time de comando Ana Maria Lopes e Jorge Lopes Filho, filhos de Jorge da Conceição Lopes, além de Azuil Álvaro Cavalcanti Lopes, filho de Álvaro Lopes.",
+      "blockClass": "bloco-tempo-text"
+    }
+  },
+  "image#tempo-image-05": {
+    "title": "Imagem",
+    "props": {
+      "src": "assets/banners/institucionais/tempo-80.png",
+      "blockClass": "bloco-tempo-image"
+    }
+  },
+  // 06
+  "flex-layout.col#tempo-06": {
+    "title": "Bloco - 2016",
+    "children": [
+      "rich-text#tempo-title-06",
+      "rich-text#tempo-text-06"
+    ],
+    "props": {
+      "blockClass": "bloco-2016",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#tempo-title-06": {
+    "title": "Ano",
+    "props": {
+      "text": "2016",
+      "blockClass": "bloco-tempo-title"
+    }
+  },
+  "rich-text#tempo-text-06": {
+    "title": "Texto",
+    "props": {
+      "text": "Nos últimos anos, a Casa Santa Luzia ampliou as instalações, implantou novos sistemas, automatizou caixas, criou novas seções e personalizou ainda mais os produtos da loja. Com todos esses avanços, veio junto à mesma dedicação que acompanha a família e torna a Casa Santa Luzia tão especial há 90 anos.",
+      "blockClass": "bloco-tempo-text"
+    }
+  }
+}

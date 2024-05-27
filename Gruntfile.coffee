@@ -22,9 +22,9 @@ module.exports = (grunt) ->
   verbose = grunt.option('verbose')
 
   if secureUrl
-    imgProxyOptions = url.parse("https://lojasolo.vteximg.com.br/arquivos")
+    imgProxyOptions = url.parse("")
   else
-    imgProxyOptions = url.parse("http://lojasolo.vteximg.com.br/arquivos")
+    imgProxyOptions = url.parse("")
 
   imgProxyOptions.route = '/arquivos'
 
@@ -141,7 +141,7 @@ module.exports = (grunt) ->
           expand: true
           flatten: true
           cwd: 'src/'
-          src: ['lojasolo-theme.js']
+          src: ['transf-auto-theme.js']
           dest: 'build/arquivos/'
           ext: '.js'
         }]

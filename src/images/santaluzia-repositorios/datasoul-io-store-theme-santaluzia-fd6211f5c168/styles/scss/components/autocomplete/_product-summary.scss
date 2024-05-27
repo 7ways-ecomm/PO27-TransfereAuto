@@ -1,0 +1,25 @@
+.element--shelf-default-autocomplete {
+  flex-direction: row;
+  gap: 20px;
+  padding: 0 0 8px 0;
+
+  .nameContainer--product-name-autocomplete {
+    padding: 0 0 15px 0;
+    text-align: left;
+  }
+
+  .productNameContainer--product-name-autocomplete, .productBrand--product-name-autocomplete {
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 500;
+    color: #AD8F6B;
+  }
+
+  .imageWrapper--product-image-autocomplete {
+    width: 97px;
+
+    .image--product-image-autocomplete {
+      border-radius: 8px;
+    }
+  }
+}

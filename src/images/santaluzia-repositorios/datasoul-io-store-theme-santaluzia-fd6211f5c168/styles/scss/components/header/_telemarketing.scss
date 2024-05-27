@@ -1,0 +1,57 @@
+:global(.vtex-telemarketing-2-x-wrapper),
+.popoverHeader,
+.popoverArrowUp  {
+  background: var(--secondary-variant);
+}
+
+.attendantEmail,
+.loginAsText {
+  font-weight: 600;
+}
+
+.popoverHeader {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.assistantSalesIcon {
+  width: 25px;
+}
+
+.popoverHeaderEmail {
+  color: #FFF;
+  font-weight: 600;
+  margin: 0;
+}
+
+.popoverContentContainer,
+.loginFormContainer {
+  border-radius: 5px;
+}
+
+.loginFormMessage {
+  font-size: 14px;
+  line-height: normal;
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.loginForm {
+  :global(.vtex-button) {
+    background: var(--secondary-variant);
+    border: none;
+
+    :global(.vtex-button__label) {
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+
+  :global(.vtex-input-prefix__group) {
+    border: 1px solid var(--primary);
+    border-radius: 6px;
+  }
+}

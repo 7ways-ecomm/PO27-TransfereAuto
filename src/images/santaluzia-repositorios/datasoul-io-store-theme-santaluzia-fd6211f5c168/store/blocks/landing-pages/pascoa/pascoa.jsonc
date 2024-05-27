@@ -1,0 +1,28 @@
+{
+  "store.custom#pascoa": {
+    "children": [
+      "flex-layout.row#pascoa"
+    ]
+  },
+  "flex-layout.row#pascoa": {
+    "title": "Páscoa",
+    "children": [
+      "flex-layout.col#pascoa"
+    ],
+    "props": {
+      "blockClass": "pascoa"
+    }
+  },
+  "flex-layout.col#pascoa": {
+    "children": [
+      "flex-layout.col#pascoa-banner",
+      "flex-layout.col#pascoa-header",
+      "flex-layout.row#pascoa-cards",
+      "flex-layout.col#pascoa-vertudo",
+      "responsive-layout.desktop#pascoa-banner-full"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.Pagination {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.PaginationLink {
+  align-items: center;
+  background-color: var(--neutral);
+  border-radius: 4px;
+  color: var(--primary);
+  cursor: pointer;
+  display: flex;
+  font-size: 12px;
+  font-weight: bold;
+  height: 46px;
+  justify-content: center;
+  margin: 4px;
+  width: 46px;
+}
+
+.PaginationLinkActive {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.PaginationLinkActive,
+.PaginationLinkDisabled {
+  cursor: default;
+  pointer-events: none;
+}
+
+.PaginationLinkPrev,
+.PaginationLinkNext {
+  background-color: transparent;
+  border: 0;
+}
+
+.PaginationLinArrow {
+  fill: var(--primary);
+  height: 10px;
+}

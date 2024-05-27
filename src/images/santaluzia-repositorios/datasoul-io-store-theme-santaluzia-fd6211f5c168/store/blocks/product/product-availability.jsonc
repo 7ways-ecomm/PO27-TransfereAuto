@@ -1,0 +1,13 @@
+{
+  "condition-layout.product#availability": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
+        }
+      ],
+      "Then": "flex-layout.row#product-qtd-buy",
+      "Else": "flex-layout.row#product-availability"
+    }
+  }
+}
