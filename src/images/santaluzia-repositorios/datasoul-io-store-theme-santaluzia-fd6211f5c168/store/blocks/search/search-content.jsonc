@@ -1,0 +1,17 @@
+{
+  "flex-layout.col#content": {
+    "children": [
+      "experimental__visibility-layout#search-slider-category",
+      "experimental__visibility-layout#search-text",
+      "experimental__visibility-layout#search-seo",
+      "experimental__visibility-layout#search-info",
+      "flex-layout.row#products",
+      "flex-layout.row#search-result-pagination"
+    ],
+    "props": {
+      "blockClass": "search-content",
+      "width": "76%",
+      "preventVerticalStretch": true
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "vtex.menu@2.x:menu#cardapio-detalhes-menus": {
+    "title": "Menu - Items",
+    "props": {
+      "blockClass": [
+        "cardapio-detalhes-menu"
+      ]
+    }
+  }
+}

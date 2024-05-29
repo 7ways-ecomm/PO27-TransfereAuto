@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+:local(:root) {
+  /** COLORS */
+  --primary: #88765e;
+  --primary-variant: #7b6f5d;
+  --primary-variant-2: #d6c7b5;
+  --secondary: #dd052b;
+  --secondary-variant: #931d2c;
+  --terciary: #e56f2e;
+  --terciary-variant: #d5a62e;
+  --terciary-variant-2: #e87338;
+  --neutral: #e1d8d0;
+  --neutral-variant: #f7f4f0;
+  --neutral-variant-2: #fbf9f4;
+  --neutral-variant-3: #f9f7f6;
+  --neutral-variant-4: #f0ece8;
+  --neutral-variant-5: #f6f4f1;
+
+  --gold: #d5a62e;
+  --white: #ffffff;
+  --gray-50: #fafafa;
+  --gray-100: #f4f4f5;
+  --gray-200: #e4e4e7;
+  --gray-300: #d4d4d8;
+  --gray-400: #a1a1aa;
+  --gray-500: #71717a;
+  --gray-600: #52525b;
+  --gray-700: #3f3f46;
+  --gray-800: #27272a;
+  --gray-900: #18181b;
+  --gray-950: #09090b;
+  --black: #000000;
+
+  --e7e4df: #e7e4df;
+
+  --blue: #0d6efd;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #d63384;
+  --red: #dd052a;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #198754;
+  --teal: #20c997;
+  --cyan: #0dcaf0;
+
+  /* FONTS */
+  --font-primary: "Montserrat", sans-serif;
+}

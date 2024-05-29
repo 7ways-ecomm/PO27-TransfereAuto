@@ -1,0 +1,23 @@
+{
+  "rich-text#cardapio-detalhes-texto": {
+    "title": "Texto",
+    "props": {
+      "text": "Escolha o cardápio que você deseja visualizar",
+      "blockClass": "cardapio-detalhes-texto"
+    }
+  },
+  "rich-text#cardapio-detalhes-title": {
+    "title": "Título",
+    "props": {
+      "text": "Texto",
+      "blockClass": "cardapio-detalhes-title"
+    }
+  },
+  "rich-text#cardapio-detalhes-copy": {
+    "title": "Texto - Copy",
+    "props": {
+      "text": "*Produtos sazonais e/ou sob encomenda, consultar disponibilidade. \n Imagens meramente ilustrativas.",
+      "blockClass": "cardapio-detalhes-copy"
+    }
+  }
+}

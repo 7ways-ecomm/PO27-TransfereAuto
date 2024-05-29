@@ -1,0 +1,21 @@
+{
+  "experimental__visibility-layout#institucional-container": {
+    "title": "Conteúdo padrão - Visibilidade",
+    "children": [
+      "flex-layout.row#institucional-container"
+    ],
+    "props": {
+      "visible": false
+    }
+  },
+  "flex-layout.row#institucional-container": {
+    "title": "Conteúdo",
+    "children": [
+      "flex-layout.col#menu-institucional",
+      "flex-layout.col#institucional-content"
+    ],
+    "props": {
+      "blockClass": "institucional"
+    }
+  }
+}

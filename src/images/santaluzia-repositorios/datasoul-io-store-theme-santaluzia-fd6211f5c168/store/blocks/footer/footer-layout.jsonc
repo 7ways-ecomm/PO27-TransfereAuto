@@ -1,0 +1,14 @@
+{
+  "footer-layout.desktop": {
+    "title": "Rodapé Desktop",
+    "children": [
+      "flex-layout.row#newsletter",
+      "flex-layout.row#footer-row-1-desktop",
+      "flex-layout.row#footer-row-2-desktop",
+      "flex-layout.row#footer-row-3-desktop"
+    ],
+    "props": {
+      "blockClass": "footer"
+    }
+  }
+}

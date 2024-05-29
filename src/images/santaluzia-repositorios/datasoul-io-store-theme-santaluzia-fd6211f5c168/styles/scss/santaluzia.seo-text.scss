@@ -1,0 +1,44 @@
+.TextCategory {
+  color: var(--primary);
+  font-size: 12px;
+
+  :global(.vtex-store-components-3-x-pointerEventsAuto) {
+    text-align: left;
+  }
+}
+
+.link {
+  color: var(--primary);
+  font-size: 12px;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.paragraph {
+  color: var(--primary);
+  font-size: 12px;
+}
+
+.headingLevel1,
+.headingLevel2,
+.headingLevel3,
+.headingLevel4 {
+  color: var(--primary);
+  font-size: 14px;
+}
+
+.showMoreButton {
+  color: var(--secondary);
+  background: none;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+  text-transform: capitalize;
+
+  &:hover {
+    text-decoration: none;
+  }
+}

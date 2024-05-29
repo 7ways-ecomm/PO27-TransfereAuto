@@ -1,0 +1,25 @@
+{
+  "flex-layout.row#vinicola-shelf-01": {
+    "title": "Vitrine 01",
+    "children": [
+      "rich-text#title-shelf",
+      "list-context.product-list#vinicola-shelf-default"
+    ],
+    "props": {
+      "blockClass": "slider-shelf",
+      "colSizing": "auto",
+      "horizontalAlign": "center"
+    }
+  },
+  "list-context.product-list#vinicola-shelf-default": {
+    "blocks": [
+      "product-summary.shelf#vinicula"
+    ],
+    "children": [
+      "slider-layout#shelf-products"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  }
+}

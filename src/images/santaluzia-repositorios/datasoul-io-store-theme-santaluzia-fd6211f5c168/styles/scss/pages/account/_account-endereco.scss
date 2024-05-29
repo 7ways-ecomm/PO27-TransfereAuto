@@ -1,0 +1,65 @@
+:global(.address-summary) {
+  color: #7D6E5B;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  :global(.c-link) {
+    color: #7D6E5B;
+    font-size: 12px;
+    text-decoration: underline;
+    font-weight: 700;
+  }
+}
+
+.addressList {
+  .boxContainerFooter {
+    justify-content: flex-end;
+    padding: 0;
+  }
+
+  :global(.vtex-button) {
+    background: transparent!important;
+
+    :global(.vtex-button__label) {
+      color: #EC7646;
+      font-family: Montserrat;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: normal;
+      padding: 0!important;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.addressBox {
+  gap: 25px;
+
+  :global(.pb5.pr5-ns.flex-none) {
+    padding: 0;
+
+    @media(min-width: 1026px) {
+      width: calc(33% - 15px);
+    }
+
+    @media(max-width: 1025px) {
+      width: 100%;
+    }
+  }
+
+  :global(.lighter.c-muted-2.lh-copy.pv4.w5.h4) {
+    width: 100%;
+  }
+}
+
+// cep
+:global(.vtex-address-form__postalCode-forgottenURL) {
+  :global(a.pointer.c-link.hover-c-link.active-c-link.no-underline.underline-hover) {
+    color: #7D6E5B;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+  }
+}

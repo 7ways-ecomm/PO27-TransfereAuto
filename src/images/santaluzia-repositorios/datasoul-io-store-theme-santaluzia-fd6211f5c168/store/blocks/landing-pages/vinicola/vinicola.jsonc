@@ -1,0 +1,39 @@
+{
+  "store.custom#vinicola": {
+    "children": [
+      "flex-layout.row#vinicola"
+    ]
+  },
+  "flex-layout.row#vinicola": {
+    "title": "Conteúdo",
+    "children": [
+      "flex-layout.col#vinicola"
+    ],
+    "props": {
+      "blockClass": "vinicola"
+    }
+  },
+  "flex-layout.col#vinicola": {
+    "children": [
+      "flex-layout.col#vinicola-banner",
+      "flex-layout.col#vinicola-shelf",
+      "flex-layout.row#vinicola-brand",
+      "flex-layout.row#vinicola-region",
+      "flex-layout.row#vinicola-showcase",
+      "flex-layout.row#vinicola-boss",
+      "flex-layout.col#vinicola-banner-full",
+      "flex-layout.row#vinicola-shelf-01"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#vinicola-showcase": {
+    "children": [
+      "showcase-bottles"
+    ],
+    "props": {
+      "blockClass": "vinicola-showcase"
+    }
+  }
+}

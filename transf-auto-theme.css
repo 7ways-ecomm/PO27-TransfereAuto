@@ -1,0 +1,786 @@
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cairo/v28/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hGA-W1Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cairo/v28/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hL4-W1Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cairo/v28/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hOA-W1Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cairo/v28/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hD45W1Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/cairo/v28/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hAc5W1Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bevietnampro/v11/QdVLSTAyLFyeg_IDWvOJmVES_HwyPRsSZQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bevietnampro/v11/QdVKSTAyLFyeg_IDWvOJmVES_HwyPbczRbg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bevietnampro/v11/QdVKSTAyLFyeg_IDWvOJmVES_HwyPdMwRbg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bevietnampro/v11/QdVNSTAyLFyeg_IDWvOJmVES_HwyBX8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bevietnampro/v11/QdVKSTAyLFyeg_IDWvOJmVES_HwyPYsxRbg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bevietnampro/v11/QdVKSTAyLFyeg_IDWvOJmVES_HwyPac2Rbg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bevietnampro/v11/QdVKSTAyLFyeg_IDWvOJmVES_HwyPcM3Rbg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bevietnampro/v11/QdVKSTAyLFyeg_IDWvOJmVES_HwyPd80Rbg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bevietnampro/v11/QdVKSTAyLFyeg_IDWvOJmVES_HwyPfs1Rbg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bevietnampro/v11/QdVNSTAyLFyeg_IDWvOJmVES_HRUBX8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bevietnampro/v11/QdVMSTAyLFyeg_IDWvOJmVES_HT4JF8y.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bevietnampro/v11/QdVMSTAyLFyeg_IDWvOJmVES_HScJ18y.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bevietnampro/v11/QdVPSTAyLFyeg_IDWvOJmVES_Eww.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bevietnampro/v11/QdVMSTAyLFyeg_IDWvOJmVES_HTEJl8y.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bevietnampro/v11/QdVMSTAyLFyeg_IDWvOJmVES_HToIV8y.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bevietnampro/v11/QdVMSTAyLFyeg_IDWvOJmVES_HSMIF8y.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bevietnampro/v11/QdVMSTAyLFyeg_IDWvOJmVES_HSQI18y.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bevietnampro/v11/QdVMSTAyLFyeg_IDWvOJmVES_HS0Il8y.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlow/v12/7cHtv4kjgoGqM7E_CfNYwHo.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlow/v12/7cHsv4kjgoGqM7E_CfP04Vop.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlow/v12/7cHsv4kjgoGqM7E_CfOQ4lop.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlow/v12/7cHrv4kjgoGqM7E_Ccs8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlow/v12/7cHsv4kjgoGqM7E_CfPI41op.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlow/v12/7cHsv4kjgoGqM7E_CfPk5Fop.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlow/v12/7cHsv4kjgoGqM7E_CfOA5Vop.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlow/v12/7cHsv4kjgoGqM7E_CfOc5lop.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlow/v12/7cHsv4kjgoGqM7E_CfO451op.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlow/v12/7cHrv4kjgoGqM7E3b8s8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3w-oc4A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3p-kc4A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlow/v12/7cHpv4kjgoGqM7EPCw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3_-gc4A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E30-8c4A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3t-4c4A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3q-0c4A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlow/v12/7cHqv4kjgoGqM7E3j-wc4A.ttf) format('truetype');
+}
+body#po-trans {
+  font-family: "Barlow", sans-serif;
+}
+@media (min-width: 768px) {
+  body#po-trans .only-mob {
+    display: none !important;
+  }
+}
+body#po-trans #header {
+  display: flex;
+  justify-content: center;
+}
+body#po-trans #header .box-all {
+  top: 4%;
+  width: 98%;
+  z-index: 99;
+  display: flex;
+  position: fixed;
+  padding: 18px 45px;
+  border-radius: 8px;
+  align-items: center;
+  background: #000000;
+  justify-content: space-between;
+}
+body#po-trans #header .box-all .box-right .logo {
+  gap: 18px;
+  display: flex;
+  align-items: center;
+}
+body#po-trans #header .box-all .box-right .logo h1.h-header {
+  margin: 0;
+  font-size: 21px;
+  font-weight: 800;
+  color: #FFFFFF;
+  line-height: 21.6px;
+  text-transform: uppercase;
+}
+body#po-trans #header .box-all .box-left .logo {
+  gap: 18px;
+  display: flex;
+  align-items: center;
+}
+body#po-trans #header .box-all .box-left .logo span.h-header {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+  line-height: 21.6px;
+  text-transform: uppercase;
+}
+body#po-trans .main .main-box .sect.banner-texts .box {
+  z-index: 8;
+  position: relative;
+}
+body#po-trans .main .main-box .sect.banner-texts .box .banner-back img {
+  width: 100%;
+}
+body#po-trans .main .main-box .sect.banner-texts .box .texts.floating {
+  position: absolute;
+  top: 24%;
+  left: 8%;
+  max-width: 520px;
+}
+body#po-trans .main .main-box .sect.banner-texts .box .texts.floating h2.htres {
+  color: #FFFFFF;
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 48px;
+}
+body#po-trans .main .main-box .sect.banner-texts .box .texts.floating p.descrt {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33px;
+  padding-right: 20px;
+}
+body#po-trans .main .main-box .sect.banner-texts .box .texts.floating a {
+  text-decoration: none;
+}
+body#po-trans .main .main-box .sect.banner-texts .box .texts.floating a .btn-saiba:hover {
+  color: #08FFAC;
+  background: #000000;
+}
+body#po-trans .main .main-box .sect.banner-texts .box .texts.floating a .btn-saiba {
+  width: 205px;
+  height: 55px;
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  background: #08FFAC;
+  border-radius: 5px;
+  border: 2px solid #08FFAC;
+  margin-top: 1.2em;
+  transition: all 0.5s;
+}
+body#po-trans .main .main-box .sect.video .box {
+  z-index: 8;
+  display: flex;
+  padding: 0 8%;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  body#po-trans .main .main-box .sect.video .box {
+    margin-top: -18em;
+  }
+}
+@media (min-width: 768px) and (max-width: 1536px) {
+  body#po-trans .main .main-box .sect.video .box {
+    margin-top: -12em;
+  }
+}
+body#po-trans .main .main-box .sect.video .box video#video-po {
+  width: 100%;
+}
+body#po-trans .main .main-box .sect.video .box #flt-clk-vd.hide {
+  opacity: 0;
+  z-index: -1;
+}
+body#po-trans .main .main-box .sect.video .box #flt-clk-vd {
+  width: 84%;
+  opacity: 1;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  transition: all 0.5s;
+  justify-content: center;
+  background: #08FFAC4D;
+}
+body#po-trans .main .main-box .sect.video .box #flt-clk-vd .box-click {
+  gap: 14px;
+  color: #FFF;
+  display: flex;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 6px 30px;
+  line-height: 31px;
+  align-items: center;
+  border-radius: 80px;
+  text-transform: uppercase;
+  backdrop-filter: blur(12px);
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.2);
+}
+body#po-trans .main .main-box .sect.mid-banner-texts {
+  margin-top: 7em;
+}
+body#po-trans .main .main-box .sect.mid-banner-texts .box {
+  display: flex;
+  align-items: center;
+  background: #F3F3F6;
+  justify-content: space-between;
+}
+@media (min-width: 768px) {
+  body#po-trans .main .main-box .sect.mid-banner-texts .box .left-box.texts {
+    width: 50%;
+  }
+}
+body#po-trans .main .main-box .sect.mid-banner-texts .box .left-box.texts .texts.floating {
+  padding: 0 11%;
+}
+body#po-trans .main .main-box .sect.mid-banner-texts .box .left-box.texts .texts.floating h3.htres {
+  color: #000;
+  font-size: 55px;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+body#po-trans .main .main-box .sect.mid-banner-texts .box .left-box.texts .texts.floating p.descrt {
+  color: #000;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 45px;
+}
+body#po-trans .main .main-box .sect.mid-banner-texts .box .left-box.texts .texts.floating a .btn-fale:hover {
+  color: #000000;
+  background: transparent;
+  border: 2px solid #000000;
+}
+body#po-trans .main .main-box .sect.mid-banner-texts .box .left-box.texts .texts.floating a .btn-fale {
+  width: 230px;
+  height: 65px;
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  background: #08FFAC;
+  border-radius: 5px;
+  border: 2px solid #08FFAC;
+  margin-top: 1.2em;
+  transition: all 0.5s;
+}
+@media (min-width: 768px) {
+  body#po-trans .main .main-box .sect.mid-banner-texts .box .right-box {
+    width: 50%;
+  }
+}
+body#po-trans .main .main-box .sect.mid-banner-texts .box .right-box .img img {
+  width: 100%;
+  height: auto;
+}
+body#po-trans .main .main-box .sect.carrosel {
+  margin-top: 5em;
+}
+body#po-trans .main .main-box .sect.carrosel .box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (min-width: 768px) {
+  body#po-trans .main .main-box .sect.carrosel .box .left-box {
+    width: 45%;
+  }
+}
+body#po-trans .main .main-box .sect.carrosel .box .left-box h3 {
+  color: #000;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: normal;
+}
+@media (min-width: 1740px) {
+  body#po-trans .main .main-box .sect.carrosel .box .left-box h3 {
+    padding: 0px 21% !important;
+  }
+}
+@media (max-width: 1740px) {
+  body#po-trans .main .main-box .sect.carrosel .box .left-box h3 {
+    padding: 0px 15%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1290px) {
+  body#po-trans .main .main-box .sect.carrosel .box .left-box h3 {
+    padding: 0px 4%;
+  }
+}
+@media (min-width: 768px) {
+  body#po-trans .main .main-box .sect.carrosel .box .right-box.carousel {
+    width: 55%;
+    padding: 0px 10em;
+  }
+}
+body#po-trans .main .main-box .sect.carrosel .box .right-box.carousel .item .text {
+  gap: 10px;
+  display: flex;
+  position: relative;
+  margin-bottom: 15px;
+  align-items: flex-end;
+  justify-content: center;
+}
+body#po-trans .main .main-box .sect.carrosel .box .right-box.carousel .item .text .box-svg.left {
+  left: 0px;
+  bottom: 4em;
+  position: relative;
+}
+body#po-trans .main .main-box .sect.carrosel .box .right-box.carousel .item .text .depoiment-text {
+  margin: 0;
+  color: #000;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: justify;
+}
+body#po-trans .main .main-box .sect.carrosel .box .right-box.carousel .item .text .box-svg.right {
+  right: 0;
+  bottom: 10px;
+  position: relative;
+}
+body#po-trans .main .main-box .sect.carrosel .box .right-box.carousel .item .text .box-svg svg {
+  width: 50px;
+  height: auto;
+}
+body#po-trans .main .main-box .sect.carrosel .box .right-box.carousel .item .info-client {
+  gap: 1.3em;
+  display: flex;
+  padding-left: 60px;
+  align-items: center;
+  justify-content: flex-start;
+}
+body#po-trans .main .main-box .sect.carrosel .box .right-box.carousel .item .info-client .avatar img {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  background: #08FFAC;
+}
+body#po-trans .main .main-box .sect.carrosel .box .right-box.carousel .item .info-client .texts {
+  display: flex;
+  flex-direction: column;
+}
+body#po-trans .main .main-box .sect.carrosel .box .right-box.carousel .item .info-client .texts .empresa {
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+}
+body#po-trans .main .main-box .sect.carrosel .box .right-box.carousel .item .info-client .texts .nome {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+}
+body#po-trans #footer {
+  margin-top: 5em;
+  background: #000000;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+body#po-trans #footer .box-all {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+body#po-trans #footer .box-all .top-footer {
+  gap: 5px;
+  display: flex;
+  padding-top: 61px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+body#po-trans #footer .box-all .top-footer .contato {
+  color: #FFF;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  body#po-trans #footer .box-all .top-footer .contato {
+    max-width: 425px;
+  }
+}
+body#po-trans #footer .box-all .top-footer a .btn-saiba:hover {
+  color: #08FFAC;
+  background: #000000;
+}
+body#po-trans #footer .box-all .top-footer a .btn-saiba {
+  width: 255px;
+  height: 55px;
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  background: #08FFAC;
+  border-radius: 5px;
+  border: 2px solid #08FFAC;
+  margin-top: 1.2em;
+  transition: all 0.5s;
+}
+body#po-trans #footer .box-all .bottom-footer {
+  width: 100%;
+  margin-top: 43px;
+  border-top: 1px solid #404040;
+  padding: 32px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body#po-trans #footer .box-all .bottom-footer .consid {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+body#po-trans #footer .box-all .bottom-footer .consid a {
+  color: #08FFAC;
+  text-decoration: #08FFAC;
+  text-decoration: underline;
+  padding-left: 10px;
+}
+@media (max-width: 768px) {
+  body#po-trans .only-desk {
+    display: none !important;
+  }
+  body#po-trans #header .box-all .box-right .logo .texts {
+    padding-top: 13px;
+  }
+  body#po-trans #header .box-all .box-right .logo .texts .text-sub {
+    color: #FFF;
+    font-size: 14px;
+    padding-top: 3px;
+    font-weight: 800;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+  }
+  body#po-trans #header .box-all .box-right .logo .texts .text-sub b {
+    color: #08FFAC;
+  }
+  body#po-trans main.main .main-box .sect.banner-texts {
+    padding-top: 3em;
+    background: #000000;
+  }
+  body#po-trans main.main .main-box .sect.banner-texts .box .texts.floating {
+    max-width: 100%;
+    left: 0;
+    padding: 0 11%;
+  }
+  body#po-trans main.main .main-box .sect.banner-texts .box .texts.floating h2.htres {
+    font-size: 38px;
+    line-height: 44px;
+  }
+  body#po-trans main.main .main-box .sect.banner-texts .box .texts.floating p.descrt {
+    padding-right: 0;
+    font-size: 16px;
+    line-height: 25px;
+    padding-top: 15px;
+  }
+  body#po-trans main.main .main-box .sect.video .box {
+    margin-top: -3em;
+  }
+  body#po-trans main.main .main-box .sect.mid-banner-texts {
+    margin-top: 3em;
+  }
+  body#po-trans main.main .main-box .sect.mid-banner-texts .box {
+    flex-direction: column;
+  }
+  body#po-trans main.main .main-box .sect.mid-banner-texts .box .left-box {
+    padding: 2em 0;
+  }
+  body#po-trans main.main .main-box .sect.mid-banner-texts .box .left-box .texts.floating {
+    padding: 0 7%;
+  }
+  body#po-trans main.main .main-box .sect.mid-banner-texts .box .left-box .texts.floating h3.htres {
+    font-size: 38px !important;
+    line-height: 44px !important;
+  }
+  body#po-trans main.main .main-box .sect.mid-banner-texts .box .left-box .texts.floating p.descrt {
+    padding-right: 0 !important;
+    font-size: 16px !important;
+    line-height: 25px !important;
+    padding-top: 15px !important;
+  }
+  body#po-trans main.main .main-box .sect.mid-banner-texts .box .left-box .texts.floating a .btn-fale {
+    width: 100% !important;
+  }
+  body#po-trans main.main .main-box .sect.carrosel {
+    margin-top: 2em;
+  }
+  body#po-trans main.main .main-box .sect.carrosel .box {
+    flex-direction: column;
+  }
+  body#po-trans main.main .main-box .sect.carrosel .box .left-box.texts {
+    margin-bottom: 2em;
+  }
+  body#po-trans main.main .main-box .sect.carrosel .box .left-box.texts h3 {
+    padding: 0px 0px;
+    text-align: center;
+    font-size: 24px;
+    max-width: 256px;
+  }
+  body#po-trans main.main .main-box .sect.carrosel .box .right-box.carousel {
+    max-width: 100%;
+    padding: 0 3%;
+  }
+  body#po-trans main.main .main-box .sect.carrosel .box .right-box.carousel .item .text {
+    gap: 0px;
+  }
+  body#po-trans main.main .main-box .sect.carrosel .box .right-box.carousel .item .text .box-svg.left {
+    top: -9em;
+  }
+  body#po-trans main.main .main-box .sect.carrosel .box .right-box.carousel .item .text .depoiment-text {
+    text-align: center;
+    line-height: 22px;
+    font-size: 13px;
+    padding: 20px 0;
+  }
+  body#po-trans main.main .main-box .sect.carrosel .box .right-box.carousel .item .text .box-svg.right {
+    bottom: 0;
+  }
+  body#po-trans #footer {
+    margin-top: 2em;
+  }
+  body#po-trans #footer .box-all .top-footer {
+    padding-top: 45px;
+  }
+  body#po-trans #footer .box-all .top-footer .contato {
+    font-size: 24px;
+    max-width: 214px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  body#po-trans #footer .box-all .top-footer .contato span {
+    color: #FFF;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 400;
+  }
+  body#po-trans #footer .box-all .bottom-footer {
+    padding: 32px 7%;
+  }
+  body#po-trans #footer .box-all .bottom-footer .consid {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+}

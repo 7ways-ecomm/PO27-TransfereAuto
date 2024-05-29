@@ -141,7 +141,7 @@ module.exports = (grunt) ->
           expand: true
           flatten: true
           cwd: 'src/'
-          src: ['hello-kitty-theme.js']
+          src: ['transf-auto-theme.js']
           dest: 'build/arquivos/'
           ext: '.js'
         }]

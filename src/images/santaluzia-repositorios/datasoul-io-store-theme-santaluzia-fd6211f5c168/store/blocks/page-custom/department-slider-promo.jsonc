@@ -1,0 +1,42 @@
+{
+  "flex-layout.row#department-slider-promo": {
+    "title": "Promoções",
+    "children": [
+      "list-context.image-list#department-slider-promo"
+    ],
+    "props": {
+      "blockClass": [
+        "department-slider-promo"
+      ]
+    }
+  },
+  "list-context.image-list#department-slider-promo": {
+    "title": "Slider",
+    "children": [
+      "slider-layout#department-slider-promo"
+    ],
+    "props": {
+      "images": [
+        {
+          "image": "assets/banners/mock/1200x265.png",
+          "mobileImage": "assets/banners/mock/420x150.png",
+          "description": "something something"
+        }
+      ]
+    }
+  },
+  "slider-layout#department-slider-promo": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "department-slider-promo",
+      "showNavigationArrows": "never",
+      "showPaginationDots": "mobileOnly",
+      "fullWidth": true
+    }
+  }
+}

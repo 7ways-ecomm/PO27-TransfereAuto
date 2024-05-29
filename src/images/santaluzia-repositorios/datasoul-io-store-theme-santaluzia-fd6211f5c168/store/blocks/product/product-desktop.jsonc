@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#product-container": {
+    "title": "Produto",
+    "children": [
+      "flex-layout.row#product-slider",
+      "flex-layout.col#product-info"
+    ],
+    "props": {
+      "blockClass": [
+        "product",
+        "product-container",
+        "product-desktop"
+      ]
+    }
+  }
+}

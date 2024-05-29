@@ -1,0 +1,10 @@
+{
+  "flex-layout.row#search-result-pagination": {
+    "children": [
+      "custom-store-pagination"
+    ],
+    "props": {
+      "blockClass": "search-result-pagination"
+    }
+  }
+}

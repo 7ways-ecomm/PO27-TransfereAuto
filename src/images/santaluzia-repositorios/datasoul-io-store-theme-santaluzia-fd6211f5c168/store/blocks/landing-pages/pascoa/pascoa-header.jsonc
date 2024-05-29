@@ -1,0 +1,33 @@
+{
+  "flex-layout.col#pascoa-header": {
+    "title": "Ícone e Textos",
+    "children": [
+      "image#pascoa-header",
+      "rich-text#pascoa-header-title",
+      "rich-text#pascoa-header-subtitle"
+    ],
+    "props": {
+      "blockClass": "pascoa-header"
+    }
+  },
+  "image#pascoa-header": {
+    "props": {
+      "src": "assets/banners/pascoa/pascoa-coelho.png",
+      "blockClass": "pascoa-header-image"
+    }
+  },
+  "rich-text#pascoa-header-title": {
+    "title": "Título",
+    "props": {
+      "text": "FELIZ PÁSCOA",
+      "blockClass": "pascoa-header-title"
+    }
+  },
+  "rich-text#pascoa-header-subtitle": {
+    "title": "Subtítulo",
+    "props": {
+      "text": "Nossa Páscoa este ano é um campo florido de girassóis. Assim como o girassol, que busca o sol para florescer, a Páscoa nos convida a voltar nossos olhos para a esperança e a ressurreição. Que nesta Páscoa o girassol seja um lembrete do poder de florescer em novos começos.",
+      "blockClass": "pascoa-header-subtitle"
+    }
+  }
+}

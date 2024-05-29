@@ -1,0 +1,26 @@
+{
+  "store.home": {
+    "blocks": [
+      //Slider Principal
+      "flex-layout.row#home-slider-main",
+      //Slider Categorias
+      "flex-layout.row#home-slider-categories",
+      "__fold__",
+      //Mosaic Banner
+      "responsive-layout.desktop#home-mosaic-images",
+      "responsive-layout.mobile#home-mosaic-images",
+      //Slider Brands
+      "flex-layout.row#home-slider-brands",
+      //Slider Tips
+      "flex-layout.row#home-slider-tips",
+      //Shelf 01
+      "flex-layout.row#home-shelf-01",
+      //Slider Types
+      "flex-layout.row#home-slider-types",
+      //Shelf 02
+      "flex-layout.row#home-shelf-02",
+      //Slider Promo
+      "flex-layout.row#home-slider-promo"
+    ]
+  }
+}

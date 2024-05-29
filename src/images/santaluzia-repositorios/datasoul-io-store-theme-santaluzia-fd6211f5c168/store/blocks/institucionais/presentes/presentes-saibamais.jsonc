@@ -1,0 +1,46 @@
+{
+  "flex-layout.row#presentes-saibamais": {
+    "children": [
+      "info-card#presentes-saibamais"
+    ],
+    "props": {
+      "blockClass": "presentes-saibamais"
+    }
+  },
+  "info-card#presentes-saibamais": {
+    "title": "Saiba Mais",
+    "props": {
+      "isFullModeStyle": false,
+      "imageUrl": "assets/banners/institucionais/presentes/presentes-banner-menor.png",
+      "headline": "Presentes da casa \n\n Pessoa Jurídica",
+      "subhead": "Com mais de 90 anos de tradição, a Casa Santa Luzia é referência em montagem de Cestas e Presentes para todas as ocasiões. Clique no botão abaixo e solicite o seu presente.",
+      "callToActionText": "Saiba mais",
+      "callToActionMode": "link",
+      "textMode": "rich-text",
+      "callToActionUrl": "https://www.santaluzia.com.br/presentes-personalizados/empresas",
+      "blockClass": "infocard-presentes-saibamais"
+    }
+  },
+  "flex-layout.row#presentes-saibamais-fisica": {
+    "children": [
+      "info-card#presentes-saibamais-fisica"
+    ],
+    "props": {
+      "blockClass": "presentes-saibamais"
+    }
+  },
+  "info-card#presentes-saibamais-fisica": {
+    "title": "Saiba Mais",
+    "props": {
+      "isFullModeStyle": false,
+      "imageUrl": "assets/banners/institucionais/presentes/presentes-banner-menor-fisica.png",
+      "headline": "Presentes da casa \n\n Pessoa Física",
+      "subhead": "Com mais de 90 anos de tradição, a Casa Santa Luzia é referência em montagem de Cestas e Presentes para todas as ocasiões. Clique no botão abaixo e solicite o seu presente.",
+      "callToActionText": "Saiba mais",
+      "callToActionMode": "link",
+      "callToActionUrl": "https://www.santaluzia.com.br/presentes-personalizados/clientes",
+      "textMode": "rich-text",
+      "blockClass": "infocard-presentes-saibamais"
+    }
+  }
+}

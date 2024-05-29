@@ -1,0 +1,18 @@
+{
+  "flex-layout.row#product-name": {
+    "title": "Nome do Produto",
+    "children": [
+      "vtex.store-components@3.x:product-name#product-name"
+    ],
+    "props": {
+      "blockClass": "product-name",
+      "preventVerticalStretch": true
+    }
+  },
+  "vtex.store-components@3.x:product-name#product-name": {
+    "props": {
+      "blockClass": "product-name",
+      "preventVerticalStretch": true
+    }
+  }
+}

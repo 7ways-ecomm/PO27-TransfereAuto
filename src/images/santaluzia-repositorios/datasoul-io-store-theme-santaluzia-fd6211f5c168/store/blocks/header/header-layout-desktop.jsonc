@@ -1,0 +1,50 @@
+{
+  "flex-layout.row#header-desktop": {
+    "title": "Header",
+    "children": [
+      "flex-layout.col#header-desktop-logo",
+      "flex-layout.col#header-desktop-search",
+      "flex-layout.col#header-desktop-links"
+    ],
+    "props": {
+      "blockClass": "header-desktop",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#header-desktop-logo": {
+    "title": "Logo",
+    "children": [
+      "logo#header-desktop"
+    ],
+    "props": {
+      "blockClass": [
+        "header-desktop-logo"
+      ]
+    }
+  },
+  "flex-layout.col#header-desktop-search": {
+    "title": "Busca",
+    "children": [
+      "search-bar#header"
+    ],
+    "props": {
+      "blockClass": [
+        "header-desktop-search"
+      ]
+    }
+  },
+  "flex-layout.col#header-desktop-links": {
+    "title": "Links",
+    "children": [
+      "login",
+      "image#wishlist",
+      "minicart.v2#header",
+      "total-minicart-custom"
+    ],
+    "props": {
+      "blockClass": [
+        "header-desktop-links"
+      ]
+    }
+  }
+}

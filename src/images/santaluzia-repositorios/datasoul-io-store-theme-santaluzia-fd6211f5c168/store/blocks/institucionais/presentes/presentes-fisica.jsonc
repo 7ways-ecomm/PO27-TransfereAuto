@@ -1,0 +1,36 @@
+{
+  "store.custom#presentes-fisica": {
+    "blocks": ["flex-layout.row#presentes-fisica"],
+    "props": {
+      "blockClass": "presentes"
+    }
+  },
+  "flex-layout.row#presentes-fisica": {
+    "title": "Presentes Personalizados - Física",
+    "children": ["flex-layout.col#presentes-fisica"],
+    "props": {
+      "blockClass": "presentes"
+    }
+  },
+
+  "flex-layout.col#presentes-fisica": {
+    "children": [
+      "info-card#presentes-banner-fisica",
+      "flex-layout.row#presentes",
+      "form-gifts-steps-modal",
+      "flex-layout.col#presentes-ocasioes",
+      "flex-layout.col#presentes-contato",
+      "flex-layout.row#presentes-saibamais"
+    ]
+  },
+
+  "form-gifts-steps-modal": {
+    "props": {
+      "step1Title": "## ANTES DE COMEÇAR... \n ## ME FALA UM POUCO SOBRE VOCÊ \n \n Para entrar em contato, precisamos de algumas informações suas",
+      "step2Title": "## PERFIS DAS CESTAS",
+      "step3Title": "## PRECISAMOS SABER ALGO MAIS?",
+      "step4Title": "## QUANTO PRETENDE INVESTIR?",
+      "step5Title": "## OBRIGADO \n Entraremos em contato com você!"
+    }
+  }
+}

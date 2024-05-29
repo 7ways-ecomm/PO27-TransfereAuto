@@ -1,0 +1,14 @@
+{
+  "store.custom#sustentabilidade": {
+    "path": "/institucional/sustentabilidade"
+  },
+  "store.custom#cardapio": {
+    "path": "/cardapio"
+  },
+  "store.custom#presentes-juridica": {
+    "path": "/presentes-personalizados/empresas"
+  },
+  "store.custom#presentes-fisica": {
+    "path": "/presentes-personalizados/clientes"
+  }
+}

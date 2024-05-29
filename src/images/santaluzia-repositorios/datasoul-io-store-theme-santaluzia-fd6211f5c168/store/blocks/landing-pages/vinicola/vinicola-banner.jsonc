@@ -1,0 +1,37 @@
+{
+  "flex-layout.col#vinicola-banner": {
+    "title": "Banner Principal",
+    "children": [
+      "responsive-layout.desktop#vinicola-banner",
+      "responsive-layout.mobile#vinicola-banner"
+    ]
+  },
+  "flex-layout.col#vinicola-banner-full": {
+    "title": "Banner Full",
+    "children": [
+      "responsive-layout.desktop#vinicola-banner",
+      "responsive-layout.mobile#vinicola-banner"
+    ],
+    "props": {
+      "blockClass": "vinicola-banner-full"
+    }
+  },
+  "responsive-layout.desktop#vinicola-banner": {
+    "title": "Desktop",
+    "children": [
+      "image#vinicola-banner"
+    ]
+  },
+  "responsive-layout.mobile#vinicola-banner": {
+    "title": "Mobile",
+    "children": [
+      "image#vinicola-banner"
+    ]
+  },
+  "image#vinicola-banner": {
+    "props": {
+      "src": "",
+      "blockClass": "vinicola-banner"
+    }
+  }
+}

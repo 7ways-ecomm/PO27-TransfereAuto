@@ -1,0 +1,35 @@
+// categorias
+.infoCardContainer--search-slider-search-card {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 0;
+  gap: 20px;
+}
+
+.infoCardImageContainer--search-slider-search-card,
+.infoCardTextContainer--search-slider-search-card {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.container--search-slider-search-card,
+.wrapper--search-slider-search-card {
+  width: 100%;
+}
+
+.paragraph--search-slider-search-card {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.link--search-slider-search-card {
+  color: var(--primary);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+}

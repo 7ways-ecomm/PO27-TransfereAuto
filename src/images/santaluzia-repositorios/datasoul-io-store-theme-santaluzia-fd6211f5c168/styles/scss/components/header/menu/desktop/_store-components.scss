@@ -1,0 +1,9 @@
+.imageElement--image-submenu-desktop {
+  height: 100%;
+}
+
+:global(.vtex-menu-2-x-submenu--submenu-desktop) {
+    .imageElement {
+      height: 100%;
+    }
+}

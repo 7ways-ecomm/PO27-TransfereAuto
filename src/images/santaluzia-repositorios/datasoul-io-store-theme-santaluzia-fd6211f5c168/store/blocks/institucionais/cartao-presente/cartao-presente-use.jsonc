@@ -1,0 +1,121 @@
+{
+  "flex-layout.col#cartao-use": {
+    "title": "Como usar",
+    "children": [
+      "rich-text#cartao-use-title",
+      "rich-text#cartao-use-subtitle",
+      "flex-layout.row#cartao-use-items"
+    ],
+    "props": {
+      "blockClass": "cartao-use"
+    }
+  },
+  "rich-text#cartao-use-title": {
+    "title": "Título",
+    "props": {
+      "text": "Ganhou um cartão presente?",
+      "blockClass": "cartao-use-title"
+    }
+  },
+  "rich-text#cartao-use-subtitle": {
+    "title": "Subtítulo",
+    "props": {
+      "text": "Saiba como usar esse presente tão especial",
+      "blockClass": "cartao-use-subtitle"
+    }
+  },
+  "flex-layout.row#cartao-use-items": {
+    "children": [
+      "flex-layout.col#cartao-use-item-01",
+      "flex-layout.col#cartao-use-item-02",
+      "flex-layout.col#cartao-use-item-03"
+    ],
+    "props": {
+      "blockClass": "cartao-use-items"
+    }
+  },
+  "flex-layout.col#cartao-use-item-01": {
+    "title": "01 - Card",
+    "children": [
+      "rich-text#cartao-use-item-title-01",
+      "rich-text#cartao-use-item-subtitle-01",
+      "link#cartao-use-item-link-01"
+    ],
+    "props": {
+      "blockClass": "cartao-use-item",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#cartao-use-item-02": {
+    "title": "02 - Card",
+    "children": [
+      "rich-text#cartao-use-item-title-02",
+      "rich-text#cartao-use-item-subtitle-02"
+    ],
+    "props": {
+      "blockClass": "cartao-use-item",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#cartao-use-item-03": {
+    "title": "03 - Card",
+    "children": [
+      "rich-text#cartao-use-item-title-03",
+      "rich-text#cartao-use-item-subtitle-03"
+    ],
+    "props": {
+      "blockClass": "cartao-use-item",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#cartao-use-item-title-01": {
+    "title": "Título",
+    "props": {
+      "text": "Consulte o saldo",
+      "blockClass": "cartao-use-item-title"
+    }
+  },
+  "rich-text#cartao-use-item-title-02": {
+    "title": "Título",
+    "props": {
+      "text": "Adquira o item que desejar",
+      "blockClass": "cartao-use-item-title"
+    }
+  },
+  "rich-text#cartao-use-item-title-03": {
+    "title": "Título",
+    "props": {
+      "text": "Use quantas vezes quiser",
+      "blockClass": "cartao-use-item-title"
+    }
+  },
+  "rich-text#cartao-use-item-subtitle-01": {
+    "title": "Subtítulo",
+    "props": {
+      "text": "É só acessar clicando no botão abaixo, clicar na opção consultar saldo e inserir o número e a senha do seu cartão.",
+      "blockClass": "cartao-use-item-subtitle"
+    }
+  },
+  "rich-text#cartao-use-item-subtitle-02": {
+    "title": "Subtítulo",
+    "props": {
+      "text": "Todos os produtos disponíveis no site ou em nossa loja física podem ser adquiridos com o cartão presente.",
+      "blockClass": "cartao-use-item-subtitle"
+    }
+  },
+  "rich-text#cartao-use-item-subtitle-03": {
+    "title": "Subtítulo",
+    "props": {
+      "text": "Você pode utilizar o seu cartão em quantas transações forem necessárias até zerar o saldo total - lembrando que os cartões não permitem troco!",
+      "blockClass": "cartao-use-item-subtitle"
+    }
+  },
+  "link#cartao-use-item-link-01": {
+    "title": "Botão",
+    "props": {
+      "label": "Consulte o saldo agora",
+      "href": "/",
+      "blockClass": "cartao-use-item-link"
+    }
+  }
+}

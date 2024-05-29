@@ -1,0 +1,64 @@
+.wrapper--search-not-found-title {
+  .paragraph {
+    color: var(--secondary);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+
+    @media(min-width: 1026px) {
+      max-width: 380px;
+    }
+
+    @media(max-width: 1025px) {
+      text-align: center;
+      margin-top: 30px;
+    }
+  }
+}
+
+.container--search-not-found-subtitle,
+.container--search-not-found-title,
+.container--search-empty-text,
+.container--search-empty-subtitle {
+  display: block;
+}
+
+.paragraph--search-not-found-subtitle {
+  color: var(--primary);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: normal;
+  margin: 10px 0;
+
+  @media(max-width: 1025px) {
+    text-align: center;
+  }
+}
+
+// empty
+.paragraph--search-empty-subtitle {
+  color: var(--primary);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 10px 0;
+
+  @media(max-width: 1025px) {
+    text-align: center;
+  }
+}
+
+.paragraph--search-empty-text {
+  color: var(--primary);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0 0 30px 0;
+
+  @media(max-width: 1025px) {
+    text-align: center;
+  }
+}

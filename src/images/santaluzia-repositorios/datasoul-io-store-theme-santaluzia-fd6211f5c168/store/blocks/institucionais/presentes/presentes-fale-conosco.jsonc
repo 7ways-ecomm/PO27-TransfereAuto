@@ -1,0 +1,53 @@
+{
+  "flex-layout.col#presentes-contato": {
+    "title": "Fale Conosco",
+    "children": [
+      "rich-text#presentes-contato-title",
+      "flex-layout.row#presentes-contatos"
+    ],
+    "props": {
+      "blockClass": "presentes-contato"
+    }
+  },
+  "rich-text#presentes-contato-title": {
+    "title": "Título",
+    "props": {
+      "text": "Fale conosco",
+      "blockClass": "presentes-contato-title"
+    }
+  },
+  "flex-layout.row#presentes-contatos": {
+    "children": [
+      "rich-text#presentes-phone",
+      "rich-text#presentes-email",
+      "rich-text#presentes-atendimento"
+    ],
+    "props": {
+      "blockClass": "presentes-contatos"
+    }
+  },
+  "rich-text#presentes-phone": {
+    "title": "Telefone",
+    "props": {
+      "text": "Ligar para \n\n [(11) 3897-5000](tel:+551138975000)",
+      "blockClass": ["presentes-contatos", "presentes-phone"],
+      "width": "17%"
+    }
+  },
+  "rich-text#presentes-email": {
+    "title": "E-mail",
+    "props": {
+      "text": "Mandar e-mail para \n\n [vendas@santaluzia.com](mailto:vendas@santaluzia.com)",
+      "blockClass": ["presentes-contatos", "presentes-email"],
+      "width": "20%"
+    }
+  },
+  "rich-text#presentes-atendimento": {
+    "title": "Atendimento",
+    "props": {
+      "text": "Atendimento \n\n Segunda a Sexta-feira, das 08h00 às 18h00",
+      "blockClass": ["presentes-contatos", "presentes-atendimento"],
+      "width": "38%"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+/* MINICART */
+.summarySmallContent--minicart {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.summaryItemContainer--minicart {
+  margin: 0;
+  padding: 0;
+
+  &:last-child {
+    .summaryItemLabel--minicart {
+      font-size: 21px;
+      color: #88765E;
+      font-weight: 700;
+    }
+
+    .price--minicart {
+      font-size: 21px;
+      color: #DD052A;
+      font-weight: 700;
+    }
+  }
+}
+
+.summaryItemLabel--minicart {
+  color: var(--primary);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.price--minicart {
+  color: #88765E;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.summarySmallDisclaimer--minicart {
+  display: none;
+}
+
+/* MINICART End */

@@ -1,0 +1,13 @@
+{
+  "flex-layout.row#home-slider-categories": {
+    "title": "Categorias",
+    "children": [
+      "list-context.info-card-list#slider-categories"
+    ],
+    "props": {
+      "blockClass": [
+        "home-slider-categories"
+      ]
+    }
+  }
+}

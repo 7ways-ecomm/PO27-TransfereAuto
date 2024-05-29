@@ -1,0 +1,30 @@
+{
+  "info-card#presentes-banner": {
+    "title": "Banner",
+    "props": {
+      "imageUrl": "assets/banners/institucionais/presentes/presentes-banner-juridica.png",
+      "mobileImageUrl": "assets/banners/institucionais/presentes/presentes-bannermob-juridica.png",
+      "headline": "Presentes da casa \n\n Pessoa Jurídica",
+      "subhead": "Em nossa Casa você conta com a área de Presentes que atua de forma personalizada à necessidade de sua empresa. Com uma variedade de mais de 32 mil itens importados e nacionais, nossa equipe de consultores possui a experiência necessária para elaboração do seu presente, atendendo as características de perfil e budget estabelecidos por sua empresa. Clique no botão abaixo e solicite um orçamento.",
+      "callToActionText": "Monte seu presente",
+      "callToActionMode": "button",
+      "isFullModeStyle": true,
+      "textMode": "rich-text",
+      "blockClass": ["infocard-presentes", "infocard-form"]
+    }
+  },
+  "info-card#presentes-banner-fisica": {
+    "title": "Banner",
+    "props": {
+      "imageUrl": "assets/banners/institucionais/presentes/presentes-banner-fisica.png",
+      "mobileImageUrl": "assets/banners/institucionais/presentes/presentes-bannermob-fisica.png",
+      "headline": "Presentes da casa \n\n Pessoa Física",
+      "subhead": "Em nossa Casa você conta com a área de Presentes que atua de forma personalizada a sua necessidade. Nossa equipe de consultores possui a expertise necessária para a elaboração do seu presente, harmonizando sabores às preferências de seu presenteado para garantir uma experiência exclusiva em diversas ocasiões. Clique no botão abaixo e solicite o seu orçamento",
+      "callToActionText": "Monte seu presente",
+      "callToActionMode": "button",
+      "isFullModeStyle": true,
+      "textMode": "rich-text",
+      "blockClass": ["infocard-presentes", "infocard-form"]
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#service-mobile",
+      "menu-item#company-mobile",
+      "menu-item#infos-mobile"
+    ]
+  },
+  "menu-item#service-mobile": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Atendimento",
+        "text": "Atendimento"
+      },
+      "blockClass": ["menu-footer-mobile"]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#service-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#service-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#service-accordion-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#service-accordion-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#service-store-virtual-date-time",
+      "menu-item#service-store-virtual-phone",
+      "menu-item#service-store-virtual-mail"
+    ]
+  },
+  /* Menu Empresa */
+  "menu-item#company-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Empresa",
+        "text": "Empresa"
+      },
+      "blockClass": ["menu-footer-mobile"]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#company"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#company": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-company-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#footer-company-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": []
+  },
+  "menu-item#infos-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Informações",
+        "text": "Informações"
+      },
+      "blockClass": ["menu-footer-mobile"]
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#infos"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#infos": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-infos-mobile",
+      "experimental__visibility-layout#bem-estar-animal"
+    ]
+  },
+  "vtex.menu@2.x:menu#footer-infos-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": []
+  }
+}

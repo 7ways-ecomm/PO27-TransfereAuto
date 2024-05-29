@@ -1,0 +1,7 @@
+{
+  "store.custom#collection": {
+    "children": [
+      "search-result-layout.customQuery#collection"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "experimental__visibility-layout#department-slider-small": {
+    "title": "Banners Pequenos",
+    "children": [
+      "flex-layout.row#department-slider-small"
+    ],
+    "props": {
+      "visible": false
+    }
+  },
+  "flex-layout.row#department-slider-small": {
+    "title": "Banners Pequenos",
+    "children": [
+      "list-context.image-list#department-slider-small"
+    ],
+    "props": {
+      "blockClass": "department-slider-small",
+      "fullWidth": true
+    }
+  },
+  "list-context.image-list#department-slider-small": {
+    "title": "Banners",
+    "children": [
+      "slider-layout#department-slider-small-images"
+    ],
+    "props": {
+      "images": [
+        {
+          "image": "assets/banners/mock/218x131.png",
+          "mobileImage": "assets/banners/mock/218x131.png",
+          "description": "something something"
+        },
+        {
+          "image": "assets/banners/mock/218x131.png",
+          "mobileImage": "assets/banners/mock/218x131.png",
+          "description": "something something"
+        },
+        {
+          "image": "assets/banners/mock/218x131.png",
+          "mobileImage": "assets/banners/mock/218x131.png",
+          "description": "something something"
+        },
+        {
+          "image": "assets/banners/mock/218x131.png",
+          "mobileImage": "assets/banners/mock/218x131.png",
+          "description": "something something"
+        },
+        {
+          "image": "assets/banners/mock/218x131.png",
+          "mobileImage": "assets/banners/mock/218x131.png",
+          "description": "something something"
+        }
+      ]
+    }
+  },
+  "slider-layout#department-slider-small-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "blockClass": "department-slider-small",
+      "infinite": true,
+      "fullWidth": true,
+      "centerMode": {
+        "phone": "to-the-left",
+        "tablet": "to-the-left",
+        "desktop": "disabled"
+      },
+      "centerModeSlidesGap": 22,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never"
+    }
+  }
+}

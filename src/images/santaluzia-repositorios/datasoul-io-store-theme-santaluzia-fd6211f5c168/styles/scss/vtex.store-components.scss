@@ -1,0 +1,26 @@
+.container {
+  padding: 0 14px;
+
+  @media(min-width: 1024px) {
+    max-width: 1200px;
+  }
+
+  @media(min-width: 1224px) {
+    max-width: 1200px;
+    padding: 0;
+  }
+}
+
+/* Components */
+@import './components/header/store-component';
+@import './components/header/menu/desktop/store-components';
+@import "./components/footer/store-component";
+/* Pages */
+@import './pages/search/store-components';
+@import "./pages/product/store-components";
+@import "./pages/department/store-components";
+@import "./pages/404/store-components";
+@import "./pages/institucionais/store-component";
+@import "./pages/home/store-components";
+@import "./pages/vinicola/store-components";
+@import "./pages/pascoa/store-components";

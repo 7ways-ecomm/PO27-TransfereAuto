@@ -1,0 +1,123 @@
+{
+  "flex-layout.row#footer-row-2-desktop": {
+    "title": "Selos e Formas de Pagamento",
+    "children": [
+      "flex-layout.col#payment-methods",
+      "flex-layout.col#selos"
+    ],
+    "props": {
+      "blockClass": [
+        "footer-row-2",
+        "payment-methods-selos"
+      ],
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#payment-methods": {
+    "children": [
+      "rich-text#title-payment-methods",
+      "image-list#footer-payment-methods"
+    ],
+    "props": {
+      "blockClass": "col-payment-methods",
+      "colSizing": "auto"
+    }
+  },
+  "rich-text#title-payment-methods": {
+    "title": "Título Meios de Pagamento",
+    "props": {
+      "text": "PAGUE COM",
+      "blockClass": "footer-title-payment-methods"
+    }
+  },
+  "image-list#footer-payment-methods": {
+    "title": "Lista Forma de Pagamento",
+    "props": {
+      "preload": true,
+      "blockClass": "footer-payment-methods",
+      "images": [
+        {
+          "description": "Visa",
+          "title": "Visa",
+          "image": "assets/stamps/visa.svg",
+          "blockClass": "icon-payment-methods",
+          "maxHeight": 40,
+          "maxWidth": 40
+        },
+        {
+          "description": "Master Card",
+          "title": "Master Card",
+          "image": "assets/stamps/mastercard.svg",
+          "blockClass": "icon-payment-methods",
+          "maxHeight": 40,
+          "maxWidth": 40
+        },
+        {
+          "description": "Dinners Club",
+          "title": "Dinners Club",
+          "image": "assets/stamps/diners.svg",
+          "blockClass": "icon-payment-methods",
+          "maxHeight": 40,
+          "maxWidth": 40
+        },
+        {
+          "description": "American Express",
+          "title": "American Express",
+          "image": "assets/stamps/amex.svg",
+          "blockClass": "icon-payment-methods",
+          "maxHeight": 40,
+          "maxWidth": 40
+        },
+        {
+          "description": "Elo",
+          "title": "Elo",
+          "image": "assets/stamps/elo.svg",
+          "blockClass": "icon-payment-methods",
+          "maxHeight": 40,
+          "maxWidth": 40
+        },
+        {
+          "description": "Boleto",
+          "title": "Boleto",
+          "image": "assets/stamps/boleto.svg",
+          "blockClass": "icon-payment-methods",
+          "maxHeight": 40,
+          "maxWidth": 40
+        },
+        {
+          "description": "PayPal",
+          "title": "PayPal",
+          "image": "assets/stamps/paypal.svg",
+          "blockClass": "icon-payment-methods",
+          "maxHeight": 40,
+          "maxWidth": 40
+        },
+        {
+          "description": "Pix",
+          "title": "Pix",
+          "image": "assets/stamps/pix.svg",
+          "blockClass": "icon-payment-methods",
+          "maxHeight": 40,
+          "maxWidth": 40
+        }
+      ]
+    }
+  },
+  "flex-layout.col#selos": {
+    "children": [
+      "sandbox#ebit"
+    ],
+    "props": {
+      "blockClass": "col-selos",
+      "colSizing": "auto"
+    }
+  },
+  "sandbox#ebit": {
+    "props": {
+      "width": "70px",
+      "height": "95px",
+      "initialContent": "<a id='seloEbit' href='http://www.ebit.com.br/119178' target='_blank' data-noop='redir(this.href);'> </a><script type='text/javascript' id='getSelo' src='https://imgs.ebit.com.br/ebitBR/selo-ebit/js/getSelo.js?119178'> </script>",
+      "allowCookies": true
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "sticky-layout#header-desktop"
+    ]
+  },
+  "sticky-layout#header-desktop": {
+    "children": [
+      "flex-layout.row#telemarketing",
+      "flex-layout.row#header-desktop",
+      "flex-layout.row#menu",
+      "flex-layout.row#tipbar-desktop"
+    ],
+    "props": {
+      "blockClass": "header"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#header-mobile"
+    ]
+  },
+  "sticky-layout#header-mobile": {
+    "children": [
+      "flex-layout.row#telemarketing",
+      "flex-layout.row#header-mobile-body",
+      "flex-layout.row#header-mobile-search",
+      "flex-layout.row#tipbar-mobile"
+    ],
+    "props": {
+      "blockClass": "header"
+    }
+  }
+}

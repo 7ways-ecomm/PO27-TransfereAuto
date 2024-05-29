@@ -1,0 +1,61 @@
+.ProductUnavailable {
+  font-size: 14px;
+  line-height: normal;
+  font-weight: 700;
+  color: var(--secondary);
+}
+
+.quantitySelectorStepper {
+  margin: 15px 0 0;
+
+  :global(.vtex-numeric-stepper-container) {
+    background: var(--neutral-variant-3);
+    padding: 10px 0;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  :global(.vtex-numeric-stepper__input) {
+    background: var(--neutral-variant-3);
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--primary);
+    width: 60px;
+    pointer-events: none;
+
+    @media(min-width: 1024px) {
+      width: 90px;
+    }
+  }
+
+  :global(.vtex-numeric-stepper__plus-button), :global(.vtex-numeric-stepper__minus-button) {
+    border: 1px solid #e7e4df;
+    height: 30px;
+    width: 30px !important;
+    border-radius: 50% !important;
+  }
+
+  :global(.vtex-numeric-stepper__plus-button__text), :global(.vtex-numeric-stepper__minus-button__text) {
+    font-size: 0;
+  }
+
+  :global(.vtex-numeric-stepper__plus-button__text) {
+    width: 11px;
+    height: 11px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("data:image/svg+xml,%3Csvg width='11' height='11' viewBox='0 0 11 11' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.298 4.369V6.931H6.644V10.501H3.935V6.931H0.302V4.369H3.935V0.798999H6.644V4.369H10.298Z' fill='%2388765E'/%3E%3C/svg%3E%0A");
+  }
+
+  :global(.vtex-numeric-stepper__minus-button__text) {
+    width: 7px;
+    height: 4px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("data:image/svg+xml,%3Csvg width='7' height='4' viewBox='0 0 7 4' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.092 3.401V0.776H6.035V3.401H0.092Z' fill='%2388765E'/%3E%3C/svg%3E%0A");
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "store.login": {
+    "blocks": [
+      "flex-layout.row#login-title",
+      "flex-layout.row#login-content"
+    ]
+  },
+  "flex-layout.row#login-title": {
+    "children": [
+      "rich-text#login-title"
+    ],
+    "props": {
+      "blockClass": "login-title"
+    }
+  },
+  "rich-text#login-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Bem-Vindo",
+      "blockClass": "login-title"
+    }
+  },
+  "flex-layout.row#login-content": {
+    "children": [
+      "login-content#login-content"
+    ],
+    "props": {
+      "blockClass": "login-content"
+    }
+  },
+  "login-content#login-content": {
+    "props": {
+      "optionsTitle": "Use uma das opções para confirmar sua identidade",
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "showPasswordVerificationIntoTooltip": true
+    }
+  }
+}

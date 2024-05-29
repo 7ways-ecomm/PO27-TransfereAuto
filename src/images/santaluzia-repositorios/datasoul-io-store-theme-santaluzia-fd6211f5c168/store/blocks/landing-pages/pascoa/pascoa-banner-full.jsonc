@@ -1,0 +1,14 @@
+{
+  "responsive-layout.desktop#pascoa-banner-full": {
+    "title": "Banner Full",
+    "children": [
+      "image#pascoa-banner-full"
+    ]
+  },
+  "image#pascoa-banner-full": {
+    "props": {
+      "src": "assets/banners/pascoa/pascoa-banner-full.png",
+      "blockClass": "pascoa-banner"
+    }
+  }
+}

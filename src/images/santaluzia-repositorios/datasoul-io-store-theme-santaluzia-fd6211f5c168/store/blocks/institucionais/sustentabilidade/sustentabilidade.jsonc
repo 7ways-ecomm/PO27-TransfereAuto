@@ -1,0 +1,60 @@
+{
+  "store.custom#sustentabilidade": {
+    "blocks": [
+      "flex-layout.row#sustentabilidade"
+    ],
+    "props": {
+      "blockClass": "sustentabilidade"
+    }
+  },
+  "flex-layout.row#sustentabilidade": {
+    "title": "Sustentabilidade",
+    "children": [
+      "flex-layout.col#sustentabilidade"
+    ],
+    "props": {
+      "blockClass": "sustentabilidade"
+    }
+  },
+  "flex-layout.col#sustentabilidade": {
+    "children": [
+      "flex-layout.row#sustentabilidade-banner",
+      "flex-layout.col#content-sustentabilidade",
+      "flex-layout.row#infocard-sustentabilidade-01",
+      "flex-layout.row#infocard-sustentabilidade-02",
+      "flex-layout.row#infocard-sustentabilidade-03",
+      "flex-layout.row#infocard-sustentabilidade-04"
+    ]
+  },
+  "flex-layout.col#content-sustentabilidade": {
+    "children": [
+      "rich-text#title-sustentabilidade",
+      "rich-text#text-sustentabilidade",
+      "link#sustentabilidade"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-sustentabilidade": {
+    "title": "Título",
+    "props": {
+      "text": "Casa santa luzia ação sustentável",
+      "blockClass": "title-sustentabilidade"
+    }
+  },
+  "rich-text#text-sustentabilidade": {
+    "title": "Texto",
+    "props": {
+      "text": "Alinhados com os Objetivos do Desenvolvimento Sustentável da ONU (ODS), um chamado universal à ação para acabar com a pobreza, proteger o planeta e garantir que até 2030 todas as pessoas desfrutem de paz e prosperidade, criamos o programa Ação Sustentável que desde 2019 reúne profissionais de diversas áreas num comitê multidisciplinar em busca de um caminho mais sustentável para o nosso negócio, em parceria com nossos clientes, funcionários e fornecedores. Desde então, todos os nossos funcionários foram treinados para zelarem por nossas metas e nos ajudarem a encontrar e implementar soluções. A seguir apresentamos os quatro pilares do nosso programa, nossas intenções, desafios e realizações. ",
+      "blockClass": "text-sustentabilidade"
+    }
+  },
+  "link#sustentabilidade": {
+    "props": {
+      "label": "Conheça nossas ações",
+      "href": "#sustentabilidade",
+      "blockClass": "button-sustentabilidade"
+     }
+  }
+}

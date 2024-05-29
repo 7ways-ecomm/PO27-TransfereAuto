@@ -1,0 +1,87 @@
+{
+  "flex-layout.row#home-slider-types": {
+    "title": "Tipos de Produto",
+    "children": [
+      "rich-text#home-types-title",
+      "list-context.image-list#home-slider-types"
+    ],
+    "props": {
+      "blockClass": [
+        "home-slider-types"
+      ],
+      "colSizing": "auto",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#home-types-title": {
+    "title": "Título Tipos",
+    "props": {
+      "text": "Produtos especiais para o seu estilo de alimentação",
+      "blockClass": [
+        "home-types-title",
+        "title-default"
+      ]
+    }
+  },
+  "list-context.image-list#home-slider-types": {
+    "title": "Slider",
+    "children": [
+      "slider-layout#home-slider-types"
+    ],
+    "props": {
+      "images": [
+        {
+          "image": "assets/banners/mock/105x105.png",
+          "mobileImage": "assets/banners/mock/105x105.png",
+          "description": "something something"
+        },
+        {
+          "image": "assets/banners/mock/105x105.png",
+          "mobileImage": "assets/banners/mock/105x105.png",
+          "description": "something something"
+        },
+        {
+          "image": "assets/banners/mock/105x105.png",
+          "mobileImage": "assets/banners/mock/105x105.png",
+          "description": "something something"
+        },
+        {
+          "image": "assets/banners/mock/105x105.png",
+          "mobileImage": "assets/banners/mock/105x105.png",
+          "description": "something something"
+        },
+        {
+          "image": "assets/banners/mock/105x105.png",
+          "mobileImage": "assets/banners/mock/105x105.png",
+          "description": "something something"
+        },
+        {
+          "image": "assets/banners/mock/105x105.png",
+          "mobileImage": "assets/banners/mock/105x105.png",
+          "description": "something something"
+        }
+      ]
+    }
+  },
+  "slider-layout#home-slider-types": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 2
+      },
+      "centerMode": {
+        "phone": "to-the-left",
+        "desktop": "disabled"
+      },
+      "centerModeSlidesGap": 20,
+      "infinite": true,
+      "blockClass": "slider-types",
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "fullWidth": false,
+      "arrowSize": 30
+    }
+  }
+}

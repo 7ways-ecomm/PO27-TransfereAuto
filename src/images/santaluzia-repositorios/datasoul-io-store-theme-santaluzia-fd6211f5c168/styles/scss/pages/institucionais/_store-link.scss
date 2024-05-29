@@ -1,0 +1,83 @@
+.link--button-sustentabilidade {
+  text-decoration: none;
+  display: block;
+  max-width: 350px;
+  margin: 0 auto;
+
+  .label--button-sustentabilidade {
+    font-size: 14px;
+    line-height: normal;
+    text-transform: uppercase;
+    color: var(--secondary);
+    font-weight: 700;
+    border: 2px solid var(--secondary);
+    border-radius: 6px;
+    padding: 16px 60px;
+    margin: 0 14px 25px 14px;
+    display: block;
+    text-align: center;
+    transition: .2s linear;
+
+    &:hover {
+      background: var(--secondary);
+      color: var(--white);
+    }
+  }
+}
+
+// cartao presente
+.link--cartao-main-link {
+  background: #E87338;
+  border-radius: 6px;
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 255px;
+  padding: 17px;
+  transition: .2s linear;
+  margin-bottom: 40px;
+
+  @media(max-width: 1025px) {
+    margin: 0 auto 40px auto;
+  }
+}
+
+.link--cartao-use-item-link {
+  background: #E87338;
+  border-radius: 6px;
+  margin-top: 20px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 13px;
+  line-height: normal;
+  color: #FFFFFF;
+  font-weight: 700;
+  padding: 17px;
+}
+
+.link--cartao-corporativas-link {
+  background: #FFFFFF;
+  border-radius: 6px;
+  margin-top: 20px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 13px;
+  line-height: normal;
+  color: #DD052A;
+  font-weight: 700;
+  padding: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+  max-width: 255px;
+  margin-bottom: 55px;
+
+  @media(max-width: 1025px) {
+    margin: 0 auto 55px auto;
+  }
+}

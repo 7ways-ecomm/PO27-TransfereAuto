@@ -1,0 +1,30 @@
+{
+  "name": "datasoul",
+  "version": "1.0.0",
+  "description": "",
+  "author": "datasoul",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "vtex": "concurrently -k -i -c \"#8554D1,#e31c58\" -n \"Store\",\"VTEX\" \"yarn gulp --watch --no-respawning\" \"vtex link\"",
+    "start": "yarn gulp --watch --no-respawning",
+    "clean": "npx rimraf ./styles/css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "concurrently": "^8.2.2",
+    "csso": "^4.2.0",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-cached": "^1.1.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-dependents": "^1.2.5",
+    "gulp-flatten": "^0.4.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-watch": "^5.0.1",
+    "node-sass": "^8.0.0"
+  }
+}

@@ -1,0 +1,360 @@
+.flexRow--institucional-container {
+  :global(.vtex-store-components-3-x-container) {
+    max-width: 100%!important;
+    padding: 0;
+  }
+}
+
+.flexRowContent--institucional {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 14px 60px 14px;
+
+  @media (min-width: 1026px) {
+    gap: 50px;
+  }
+
+  @media (max-width: 1025px) {
+    flex-direction: column;
+
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+      width: 100% !important;
+    }
+  }
+}
+
+// breadcrumb
+.flexRowContent--breadcrumb-institucional {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 14px 0 14px;
+  gap: 10px;
+
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: auto !important;
+  }
+}
+
+// nossa historia
+
+.flexRow--nossa-historia-slider {
+  :global(.vtex-store-components-3-x-container) {
+    max-width: 100%;
+    padding: 0;
+  }
+}
+
+.flexRowContent--institucional-nossa-historia {
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    &::nth-child(2) {
+      display: none;
+    }
+  }
+}
+
+.flexRowContent--buttons-trabalhe-conosco {
+  margin-top: 30px;
+  gap: 15px;
+
+  @media (max-width: 1025px) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    &:first-child {
+      @media (min-width: 1026px) {
+        width: 60% !important;
+      }
+    }
+
+    &:last-child {
+      @media (min-width: 1026px) {
+        width: 40% !important;
+      }
+    }
+  }
+
+  :global(.vtex-rich-text-0-x-container) {
+    display: block;
+  }
+}
+
+.flexRowContent--linha-do-tempo-columns {
+  gap: 26px;
+}
+
+.flexCol {
+  @media(min-width: 1026px) {
+    &--bloco-1912 {
+      margin-bottom: 85px;
+    }
+
+    &--bloco-30,
+    &--bloco-60,
+    &--bloco-80,
+    &--bloco-1981 {
+      margin-bottom: 75px;
+    }
+
+    &--bloco-1952,
+    &--bloco-1990 {
+      margin-bottom: 50px;
+    }
+
+    &--bloco-1926 {
+      margin-top: 55px;
+      margin-bottom: 120px;
+    }
+
+    &--bloco-1997 {
+      margin-bottom: 25px;
+    }
+  }
+}
+
+.flexRowContent--tempo-banners {
+  display: flex;
+  margin: 20px 0;
+  gap: 33px;
+  justify-content: center;
+
+  @media(min-width: 1026px) {
+    margin: 65px 0;
+  }
+
+  @media(max-width: 1025px) {
+    flex-direction: column;
+  }
+}
+// linha do tempo
+
+// sustentabilidade
+.flexRow--sustentabilidade {
+  :global(.vtex-store-components-3-x-container) {
+    max-width: 100%!important;
+    padding: 0;
+  }
+}
+
+.flexRowContent--infocard-sustentabilidade {
+  &.flexRowContent--infocard-left {
+    background: rgba(225, 216, 208, 0.2);
+  }
+}
+// sustentabilidade
+
+// presentes
+.flexRow--presentes {
+  :global(.vtex-store-components-3-x-container) {
+    max-width: 100%!important;
+    padding: 0;
+
+    @media(max-width: 1025px) {
+      width: 100%;
+      display: block;
+    }
+  }
+}
+
+.flexCol--presentes-ocasioes {
+  background: rgba(225, 216, 208, 0.3);
+  padding-top: 65px;
+  padding-bottom: 45px;
+}
+
+.flexColChild--presentes-ocasioes {
+  @media(min-width: 1026px) {
+    width: 100%;
+    max-width: 1228px;
+    margin: 0 auto;
+  }
+}
+
+.flexCol--presentes-contato {
+  width: 100%;
+  max-width: 1224px;
+  margin: 0 auto;
+  padding: 45px 14px;
+}
+
+.flexRowContent--presentes-contatos {
+  justify-content: center;
+  display: flex;
+
+  @media(min-width: 1026px) {
+    gap: 50px;
+  }
+
+  @media(max-width: 1025px) {
+    flex-direction: column;
+    gap: 35px;
+
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+      width: 100%!important;
+    }
+  }
+}
+
+.flexRow--presentes-saibamais {
+  background: rgba(225,216,208,.3);
+  padding: 70px 0;
+}
+
+.flexRowContent--presentes-saibamais {
+  width: 100%;
+  max-width: 923px;
+  margin: 0 auto;
+  padding: 0 14px;
+}
+
+// cardapio detalhes
+.flexRow--cardapio-detalhes {
+  :global(.vtex-store-components-3-x-container) {
+    max-width: 100%;
+    padding: 0;
+  }
+}
+
+.flexRowContent--cardapio-detalhes-chefs {
+  background: var(--secondary);
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 15px 25px;
+  gap: 25px;
+
+  @media(min-width: 1026px) {
+    margin-bottom: -50%;
+    transform: translateY(-50%);
+  }
+}
+
+.flexRow--cardapio-detalhes-footer {
+  border-top: 1px solid rgba(136, 118, 94, 0.20);
+}
+
+.flexRowContent--cardapio-detalhes-footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 16px 10px 16px;
+  justify-content: space-between;
+  gap: 30px;
+
+  @media(min-width: 1026px) {
+    padding: 95px 16px 55px 16px;
+  }
+}
+
+// cartao presente
+.flexRow--cartao-presente {
+  :global(.vtex-store-components-3-x-container) {
+    max-width: 100%;
+    padding: 0;
+  }
+}
+
+.flexRowContent--cartao-main {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+
+  @media(max-width: 1025px) {
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 36px;
+
+    .stretchChildrenWidth {
+      width: 100%!important;
+    }
+  }
+}
+
+.flexRow--cartao-main-left {
+  background: #F3F1ED;
+  position: relative;
+
+  @media(min-width: 1026px) {
+    min-height: 380px;
+  }
+}
+
+.flexCol--cartao-main-right {
+  padding: 0 16px;
+
+  @media(min-width: 1026px) {
+    padding: 0 0 0 100px;
+  }
+}
+
+.flexCol--cartao-about-faq {
+  padding: 16px;
+
+  @media(min-width: 1026px) {
+    padding: 40px 45px 40px 16px;
+    max-width: 546px;
+    margin: 0 0 0 auto;
+  }
+}
+
+.flexColChild--cartao-about-benefits {
+  background: #F3F1ED;
+}
+
+.flexRowContent--cartao-about {
+  @media(max-width: 1025px) {
+    display: flex;
+    flex-direction: column;
+
+    .stretchChildrenWidth {
+      width: 100%!important;
+    }
+  }
+}
+
+.flexCol--cartao-use {
+  padding: 50px 16px;
+  max-width: 948px;
+  margin: 0 auto;
+}
+
+.flexRowContent--cartao-use-items {
+  display: flex;
+  gap: 38px;
+
+  @media(max-width: 1025px) {
+    flex-direction: column;
+    gap: 10px;
+
+    .stretchChildrenWidth {
+      width: 100%!important;
+    }
+  }
+}
+
+.flexCol--cartao-use-item {
+  border: 1px solid #88765E33;
+  border-radius: 16px;
+  padding: 35px 25px;
+}
+
+.flexRow--cartao-corporativas {
+  background: #DD052A;
+
+  @media(max-width: 1025px) {
+    margin-top: 150px;
+  }
+}
+
+.flexRowContent--cartao-corporativas {
+  max-width: 1050px;
+  margin: 0 auto;
+  display: flex;
+  gap: 85px;
+  align-items: center;
+
+  @media(max-width: 1025px) {
+    flex-direction: column;
+    padding: 0 16px;
+    gap: 40px;
+  }
+}

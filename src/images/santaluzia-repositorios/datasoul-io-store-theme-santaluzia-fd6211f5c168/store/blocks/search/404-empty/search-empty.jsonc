@@ -1,0 +1,69 @@
+{
+  "search-not-found-layout": {
+    "title": "Busca vazia",
+    "children": [
+      "flex-layout.row#not-found",
+      "flex-layout.row#search-404-slider",
+      "flex-layout.row#search-404-banner"
+    ]
+  },
+  "flex-layout.row#not-found": {
+    "children": [
+      "image#search-not-found",
+      "flex-layout.col#search-not-found-text"
+    ],
+    "props": {
+      "blockClass": "search-not-found"
+    }
+  },
+  "image#search-not-found": {
+    "title": "GIF",
+    "props": {
+      "blockClass": "search-404-image",
+      "src": "assets/banners/404/ops.gif",
+      "width": "44%"
+    }
+  },
+  "flex-layout.col#search-not-found-text": {
+    "children": [
+      "rich-text#not-found-title",
+      "rich-text#not-found-subtitle",
+      "rich-text#not-found-text",
+      "rich-text#not-found-text-search",
+      "search-bar#404"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "search-not-found-text",
+      "width": "32%"
+    }
+  },
+  "rich-text#not-found-title": {
+    "title": "Título",
+    "props": {
+      "text": "Infelizmente não encontramos o que você procura!",
+      "blockClass": "search-not-found-title"
+    }
+  },
+  "rich-text#not-found-subtitle": {
+    "title": "Subtitulo",
+    "props": {
+      "text": "Você pode tentar novamente com as seguintes dicas",
+      "blockClass": "search-empty-subtitle"
+    }
+  },
+  "rich-text#not-found-text": {
+    "title": "Itens",
+    "props": {
+      "text": "• Realize usando outra palavra-chave.\n• Deixe sua busca menos específica.\n• Verifique a ortografia da palavra-chave.",
+      "blockClass": "search-empty-text"
+    }
+  },
+  "rich-text#not-found-text-search": {
+    "title": "Texto - Busca",
+    "props": {
+      "text": "Tente fazer uma nova busca",
+      "blockClass": "search-empty-subtitle"
+    }
+  }
+}
